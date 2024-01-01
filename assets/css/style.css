@@ -1,0 +1,56 @@
+header {
+    min-height: 96px;
+    background-color: #000;
+}
+.logo {
+    background-image: url("../images/panic-switch-logo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.background-image {
+    height: 100vh;
+    background-color: #383737;
+    background-image: url('../images/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/*----Nav menu styling---*/
+.menu-item-color-a {
+    background-color: #000;
+}
+.menu-item-color-b {
+    background-color: #383737;
+}
+.menuitem a {
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+    width: 100%;
+    text-transform: uppercase;
+    padding-top: 18px;
+}
+.menuitem {
+    text-align: center;
+    height: 80px;
+}
+
+.menuitem span {
+    display: block;
+    padding-top: 22px;
+    width: 100%;
+}
+
+li {
+    margin: 0;
+    width: 100%;
+}
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+.menu-container {
+    font-size: 0;
+}
+#nav li {
+    font-size: 14px;
+}
