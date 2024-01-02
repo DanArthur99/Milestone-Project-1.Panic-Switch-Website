@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Rubik+Glitch&display=swap');
+
+/*----Header styling--*/
+body {
+    font-size: 20px;
+}
 header {
-    min-height: 96px;
-    background-color: #000;
+    min-height: 80px;
+    background-color: #050505;
 }
-.logo {
-    background-image: url("../images/panic-switch-logo.jpg");
-    background-size: cover;
-    background-position: center;
-}
+
+/*---First section styling--*/
+
 
 .background-image {
     height: 100vh;
@@ -14,8 +18,36 @@ header {
     background-image: url('../images/background-image.jpg');
     background-size: cover;
     background-position: center;
+    top: -50px;
 }
+
+.overlay {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
 /*----Nav menu styling---*/
+
+.logo {
+    min-width: 205px;
+    max-width: 205px;
+    background-image: url("../images/panic-switch-logo.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: visible;
+    z-index: 1;
+    
+}
+
+#nav {
+    margin: 0;
+}
+.nav-selector
+ {
+    width: 100%;
+}
+
 .menu-item-color-a {
     background-color: #000;
 }
@@ -25,6 +57,8 @@ header {
 .menuitem a {
     color: white;
     text-decoration: none;
+    font-family: 'Rubik Glitch', fantasy;
+    font-size: 1rem;
     margin: 0 auto;
     width: 100%;
     text-transform: uppercase;
@@ -53,4 +87,52 @@ li {
 }
 #nav li {
     font-size: 14px;
+}
+.navbar-toggler {
+    border-color: #797979;
+}
+.navbar .navbar-toggler span i {
+    color: #797979;
+}
+
+
+.navbar-collapse .nav-item .nav-link {
+    color: #797979;
+    font-family: 'Rubik Glitch', fantasy;
+}
+
+/*---Navbar toggler styling---*/
+
+.navbar-custom {
+    background-color: #050505;
+}
+
+@media screen and (max-width: 1290px) {
+    .menuitem a {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .menuitem a {
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 632px) {
+    .d-custom-none {
+        display: none!important;
+    }
+}
+
+@media (max-width: 631px) {
+    .d-custom-maxwidth-none {
+        display: none!important;
+    }
+}
+
+@media screen and (max-width: 631px) {
+    header {
+        min-height: 47px;
+    }
 }
