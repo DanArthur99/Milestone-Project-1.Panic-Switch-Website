@@ -126,6 +126,21 @@ li {
     background-color: #000000;
 }
 
+/*-----------Music Section Styling--------------*/
+.music-section {
+    background-color: #000;
+}
+
+.music-video {
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.embedded-video {
+    width: 500;
+    height: 400;
+}
 
 /*------------Media Queries-------------*/
 @media screen and (max-width: 1290px) {
