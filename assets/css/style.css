@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Rubik+Glitch&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Rubik+Glitch&display=swap');
 /*----Header styling--*/
 body {
     font-size: 20px;
@@ -12,6 +11,7 @@ header {
 h2 {
     font-family: 'Rubik Glitch', fantasy;
     text-transform: uppercase;
+    font-size: 45px;
 }
 /*---First section styling--*/
 
@@ -23,6 +23,7 @@ h2 {
     background-image: url('../images/background-image.jpg');
     background-size: cover;
     background-position: center;
+    
 }
 
 .overlay {
@@ -130,16 +131,54 @@ li {
 .music-section {
     background-color: #000;
 }
+#music {
+    background-color: #000;
+}
+.music-title {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    color: #fafafa;
+    
+    
 
-.music-video {
+}
+.descriptions {
     text-align: center;
-    display: inline-block;
+    color: #fafafa;
+    text-transform: uppercase;
+    font-family: "Exo 2", sans-serif;
+    font-size: 18px;
+}
+.spotify {
+    margin-top: 100px;
+}
+.amazon {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.spotify-button {
+    margin-top: 20px;
+    font-size: 22px;
+    border-radius: 30px;;
+    width: 100px;
+}
+.music-links {
+    padding-right: 50px;
+    
+
+}
+.music-video {
+    text-align: center;
+    display: inline-block;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-right: 0;
+}
 .embedded-video {
-    width: 500;
-    height: 400;
+    width: 90%;
+    min-height: 400px;
 }
 
 /*------------Media Queries-------------*/
@@ -167,15 +206,24 @@ li {
         text-align: right;
         margin-right: 100px;
     }
+
+    .left-align-heading {
+        text-align: left;
+        margin-left: 100px;
+    }
 }
 @media (max-width: 767px) {
     
     .right-align-heading, .left-align-heading {
-        text-align: center;
-        
+        text-align: center;  
     }
+    .spotify {
+        margin-top: 10px;
+    }
+    .music-links {
+        padding: 0;
 }
-
+}
 @media (max-width: 631px) {
     .d-custom-maxwidth-none {
         display: none!important;
