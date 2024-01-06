@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;1,600&family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Rubik+Glitch&display=swap');
 /*----Header styling--*/
 body {
     font-size: 20px;
@@ -28,10 +28,40 @@ h2 {
 
 .overlay {
     height: inherit;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
     width: inherit;
     
+    
+}
+.vanquish-cover {
+    margin-top: 350px;
+    margin-left: 120px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 350px;
+    min-height: 350px;
+    max-width: 350px;
+    max-height: 350px;
+}
+.center {
+    text-align: center;
+
+}
+.single-text {
+    margin-top: 500px;
+    margin-left: 100px;
+    margin-right: 70px;
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    text-transform: uppercase;
+}
+
+.phone-background {
+    background-color: #161616;
+    height: 500px;
 }
 
 /*----Nav menu styling---*/
@@ -138,6 +168,8 @@ li {
     padding-bottom: 30px;
     padding-top: 30px;
     color: #fafafa;
+    padding-left: 30px;
+    padding-right: 30px;
     
     
 
@@ -148,6 +180,12 @@ li {
     text-transform: uppercase;
     font-family: "Exo 2", sans-serif;
     font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.video-description {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .spotify {
     margin-top: 100px;
@@ -222,6 +260,15 @@ li {
     }
     .music-links {
         padding: 0;
+    }
+    .vanquish-cover {
+        margin-left: 0;
+        min-width: 0;
+        min-height: 0;
+        width: 70vw;
+    }
+    .single-text {
+        margin: 0;
 }
 }
 @media (max-width: 631px) {
@@ -247,9 +294,19 @@ li {
         margin: 0;
         position: relative;
     }
-    
+    .background-image {
+        height: 150px;
+        background-image: url('../images/background-image-phone.jpg');
 }
-
+.single-text {
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.vanquish-cover {
+    margin-top: 30px;
+}
+}
 /*------------------Footer styling----------------*/
 .social-heading {
     margin-bottom: 60px;
@@ -269,5 +326,3 @@ li {
 .social-links-list .social-link-item i {
     color: #c3e4ff;
 }
-
-
