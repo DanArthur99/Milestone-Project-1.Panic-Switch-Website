@@ -58,11 +58,51 @@ h2 {
     font-family: "Exo 2", sans-serif;
     text-transform: uppercase;
 }
-
+.copyright-text {
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    text-transform: uppercase;
+}
 .phone-background {
     background-color: #161616;
-    height: 500px;
 }
+/*-----------------Sign Up section-------------------*/
+.sign-up-text-container {
+    position: relative;
+}
+.sign-up-text {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    text-transform: uppercase;
+}
+.sign-up-form {
+    margin: 0 auto;
+    margin-top: 160px;
+    height: 60%;
+    width: 80%;
+    background-color:#b8b5b5;
+    border-radius: 10px;
+    z-index: 2;
+    opacity: 0.7;
+    position: relative;
+}
+
+.asterisk {
+    color: red !important; 
+    display: inline; 
+    float: none;
+}
+.form-width {
+    width: 100%;
+}
+.label {
+    text-align: left;
+    color: #000;
+    font-family: "Exo 2", sans-serif;
+}
+
 
 /*----Nav menu styling---*/
 
@@ -236,6 +276,13 @@ li {
     .d-custom-none {
         display: none!important;
     }
+    .form-contents, .centralize {
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 10%;
+    }
     
 }
 @media (min-width: 768px) {
@@ -269,7 +316,16 @@ li {
     }
     .single-text {
         margin: 0;
-}
+    }
+    .sign-up-text {
+        margin-top: 50px;
+    }
+    .sign-up-text-container {
+        height: 20%;
+    }
+    .form-container {
+        height: 80%;
+    }
 }
 @media (max-width: 631px) {
     .d-custom-maxwidth-none {
@@ -298,13 +354,28 @@ li {
         height: 150px;
         background-image: url('../images/background-image-phone.jpg');
 }
+.sign-up-form {
+    margin: 0 auto;
+    height: 95%;
+    width: 80%;
+    background-color:#b8b5b5;
+    border-radius: 10px;
+    z-index: 2;
+    opacity: 0.7;
+    position: relative;
+}
 .single-text {
-    margin-top: 30px;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin: 30px 25px 30px 25px;
 }
 .vanquish-cover {
     margin-top: 30px;
+}
+.form-contents {
+    padding: 5%;
+}
+.sign-up-text {
+    margin-top: 15px;
+
 }
 }
 /*------------------Footer styling----------------*/
