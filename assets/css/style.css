@@ -65,6 +65,7 @@ h2 {
 }
 .phone-background {
     background-color: #161616;
+    padding-bottom: 30px;
 }
 /*-----------------Sign Up section-------------------*/
 .sign-up-text-container {
@@ -101,6 +102,10 @@ h2 {
     text-align: left;
     color: #000;
     font-family: "Exo 2", sans-serif;
+}
+.submit-button {
+    margin-top: 20px;
+    
 }
 
 
@@ -276,7 +281,7 @@ li {
     .d-custom-none {
         display: none!important;
     }
-    .form-contents, .centralize {
+    .form-contents {
         position: absolute;
         top: 50%;
         -ms-transform: translateY(-50%);
@@ -295,6 +300,13 @@ li {
     .left-align-heading {
         text-align: left;
         margin-left: 100px;
+    }
+    .centralize {
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 10%;
     }
 }
 @media (max-width: 767px) {
@@ -318,7 +330,8 @@ li {
         margin: 0;
     }
     .sign-up-text {
-        margin-top: 50px;
+        margin: 0;
+        padding-top: 100px;
     }
     .sign-up-text-container {
         height: 20%;
@@ -327,13 +340,12 @@ li {
         height: 80%;
     }
 }
-@media (max-width: 631px) {
+
+
+@media screen and (max-width: 631px) {
     .d-custom-maxwidth-none {
         display: none!important;
     }
-}
-
-@media screen and (max-width: 631px) {
     header {
         min-height: 47px;
     }
@@ -351,7 +363,7 @@ li {
         position: relative;
     }
     .background-image {
-        height: 150px;
+        height: 120px;
         background-image: url('../images/background-image-phone.jpg');
 }
 .sign-up-form {
@@ -363,6 +375,7 @@ li {
     z-index: 2;
     opacity: 0.7;
     position: relative;
+    
 }
 .single-text {
     margin: 30px 25px 30px 25px;
@@ -374,7 +387,8 @@ li {
     padding: 5%;
 }
 .sign-up-text {
-    margin-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 }
