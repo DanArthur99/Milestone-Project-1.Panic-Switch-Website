@@ -264,6 +264,42 @@ li {
     min-height: 400px;
 }
 
+
+/*------------------Footer styling----------------*/
+.social-heading {
+    margin-bottom: 60px;
+    color: rgb(199, 223, 199);
+    
+
+}
+.social-links-list > .social-link-item {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+footer {
+    background-color:#302f2f;
+    padding: 40px;
+}
+.social-links-list .social-link-item i {
+    color: #c3e4ff;
+}
+
+
+
+
+/*-----------Thank You Page--------------*/
+
+.thank-you-text {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-family: 'Rubik Glitch', fantasy;
+    color: white;
+    text-transform: uppercase;
+    padding: 100px;
+}
 /*------------Media Queries-------------*/
 @media screen and (max-width: 1290px) {
     .menuitem a {
@@ -287,6 +323,12 @@ li {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         padding: 10%;
+    }
+    #thank-you-header {
+        min-height: 0px;
+    }
+    #thank-you-header .container-fluid .logo{
+        height: 80px;
     }
     
 }
@@ -339,8 +381,10 @@ li {
     .form-container {
         height: 80%;
     }
+    .social-heading {
+        margin-bottom: 20px;
 }
-
+}
 
 @media screen and (max-width: 631px) {
     .d-custom-maxwidth-none {
@@ -391,23 +435,12 @@ li {
     padding-bottom: 30px;
 
 }
-}
-/*------------------Footer styling----------------*/
 .social-heading {
-    margin-bottom: 60px;
-    color: rgb(199, 223, 199);
-    
-
+    font-size: 30px;
 }
 .social-links-list > .social-link-item {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
-    margin: 20px 0 20px 0;
+    margin: 5px 0 5px 0;
 }
-#social {
-    background-color:#302f2f;
-    padding: 40px;
-}
-.social-links-list .social-link-item i {
-    color: #c3e4ff;
 }
