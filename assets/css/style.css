@@ -63,9 +63,8 @@ h2 {
     font-family: "Exo 2", sans-serif;
     text-transform: uppercase;
 }
-.phone-background {
+.phone-background, .sign-up-phone-background {
     background-color: #161616;
-    padding-bottom: 30px;
 }
 /*-----------------Sign Up section-------------------*/
 .sign-up-text-container {
@@ -106,6 +105,9 @@ h2 {
 .submit-button {
     margin-top: 20px;
     
+}
+.sign-up-phone-background {
+    padding-bottom: 30px;
 }
 
 
@@ -291,10 +293,6 @@ footer {
 /*-----------Thank You Page--------------*/
 
 .thank-you-text {
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
     font-family: 'Rubik Glitch', fantasy;
     color: white;
     text-transform: uppercase;
@@ -333,6 +331,12 @@ footer {
     
 }
 @media (min-width: 768px) {
+    .thank-you-text {
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
     
     .right-align-heading {
         text-align: right;
@@ -442,5 +446,9 @@ footer {
     font-size: 30px;
     text-align: center;
     margin: 5px 0 5px 0;
+}
+.thank-you-text {
+    margin: 0;
+    padding: 81px 50px 81px 50px;
 }
 }
