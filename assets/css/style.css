@@ -13,6 +13,7 @@ h2 {
     text-transform: uppercase;
     font-size: 45px;
 }
+
 /*---First section styling--*/
 
 
@@ -25,6 +26,14 @@ h2 {
     background-position: center;
     animation-name: fade-in;
     animation-duration: 2s;
+}
+.sign-up-background-image {
+    height: 800px;
+    width: 100%;
+    background-color: #383737;
+    background-image: url('../images/background-image.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .overlay {
@@ -64,6 +73,7 @@ h2 {
     text-transform: uppercase;
     animation-name: fade-in;
     animation-duration: 2s;
+    text-shadow: 5px 5px 2px #000;
 }
 .copyright-text {
     color: white;
@@ -238,6 +248,8 @@ li {
     color: #fafafa;
     padding-left: 30px;
     padding-right: 30px;
+    animation-name: fade-in;
+    animation-duration: 2s;
     
     
 
@@ -292,7 +304,8 @@ li {
 .social-heading {
     margin-bottom: 60px;
     color: rgb(199, 223, 199);
-    
+    animation-name: fade-in;
+    animation-duration: 2s;
 
 }
 .social-links-list > .social-link-item {
@@ -321,7 +334,7 @@ footer {
 }
 @keyframes slidein {
     from {
-    transform: translateY(25%);
+    transform: translateY(12%);
     }
     
     to {
@@ -465,6 +478,10 @@ footer {
     .thank-you-background-image {
         height: 120px;
         background-image: url('../images/background-image-phone.jpg');
+    }
+    .sign-up-background-image {
+        height: 120px;
+        background-image: url('../images/background-image-phone.jpg');
 }
 .sign-up-form {
     margin: 0 auto;
@@ -504,4 +521,3 @@ footer {
     padding: 81px 50px 81px 50px;
 }
 }
-@media (min-height)
