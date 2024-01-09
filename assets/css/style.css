@@ -16,14 +16,15 @@ h2 {
 /*---First section styling--*/
 
 
-.background-image {
+.homepage-background-image {
     height: 800px;
     width: 100%;
     background-color: #383737;
     background-image: url('../images/background-image.jpg');
     background-size: cover;
     background-position: center;
-    
+    animation-name: fade-in;
+    animation-duration: 2s;
 }
 
 .overlay {
@@ -32,7 +33,7 @@ h2 {
     z-index: 1;
     width: inherit;
     
-    
+
 }
 .vanquish-cover {
     margin-top: 350px;
@@ -45,6 +46,9 @@ h2 {
     min-height: 350px;
     max-width: 350px;
     max-height: 350px;
+    box-shadow: 20px 20px 15px #0a0a0a;
+    animation-name: fade-in;
+    animation-duration: 3s;
 }
 .center {
     text-align: center;
@@ -55,8 +59,11 @@ h2 {
     margin-left: 100px;
     margin-right: 70px;
     color: white;
+    font-size: 24px;
     font-family: "Exo 2", sans-serif;
     text-transform: uppercase;
+    animation-name: fade-in;
+    animation-duration: 2s;
 }
 .copyright-text {
     color: white;
@@ -65,6 +72,15 @@ h2 {
 }
 .phone-background, .sign-up-phone-background {
     background-color: #161616;
+    z-index: 2;
+}
+#large-screen-top-section, #phone-only {
+    background-color: #383737;
+}
+
+.slide-in-animation {
+    animation-name: slidein;
+    animation-duration: 3s;
 }
 /*-----------------Sign Up section-------------------*/
 .sign-up-text-container {
@@ -110,6 +126,11 @@ h2 {
     padding-bottom: 30px;
 }
 
+
+
+#thank-you-text-section, #thank-you-phone-only {
+    background-color: #383737;
+}
 
 /*----Nav menu styling---*/
 
@@ -288,7 +309,25 @@ footer {
 }
 
 
+/*--------------Keyframes--------------*/
 
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes slidein {
+    from {
+    transform: translateY(25%);
+    }
+    
+    to {
+    transform: translateY(0%);
+    }
+    }
 
 /*-----------Thank You Page--------------*/
 
@@ -297,6 +336,15 @@ footer {
     color: white;
     text-transform: uppercase;
     padding: 100px;
+}
+
+.thank-you-background-image {
+    height: 800px;
+    width: 100%;
+    background-color: #383737;
+    background-image: url('../images/background-image.jpg');
+    background-size: cover;
+    background-position: center;
 }
 /*------------Media Queries-------------*/
 @media screen and (max-width: 1290px) {
@@ -410,7 +458,11 @@ footer {
         margin: 0;
         position: relative;
     }
-    .background-image {
+    .homepage-background-image {
+        height: 120px;
+        background-image: url('../images/background-image-phone.jpg');
+    }
+    .thank-you-background-image {
         height: 120px;
         background-image: url('../images/background-image-phone.jpg');
 }
@@ -452,3 +504,4 @@ footer {
     padding: 81px 50px 81px 50px;
 }
 }
+@media (min-height)
