@@ -175,8 +175,14 @@ h2 {
     font-size: 1rem;
     margin: 0 auto;
     width: 100%;
+    height: 100%;
     text-transform: uppercase;
     padding-top: 18px;
+    transition:color ease-in 0.3s;
+    
+}
+.menuitem a:hover {
+    color: #000;
 }
 .menuitem {
     text-align: center;
@@ -185,11 +191,16 @@ h2 {
 
 .menuitem span {
     display: block;
-    padding-top: 22px;
+    padding-top: 26px;
     width: 100%;
 }
 
-
+.hvr-sweep-to-bottom {
+    padding: 0!important;
+}
+.hvr-sweep-to-bottom:before {
+    background: #c3e4ff;
+}
 /*---------Heading align styling-------------*/
 
 
