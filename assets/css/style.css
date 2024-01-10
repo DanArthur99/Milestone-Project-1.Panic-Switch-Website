@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;1,600&family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Rubik+Glitch&display=swap');
+
 /*----Header styling--*/
 body {
     font-size: 20px;
 }
+
 header {
     min-height: 80px;
     background-color: #000000;
     z-index: 2;
 }
+
 h2 {
     font-family: 'Rubik Glitch', fantasy;
     text-transform: uppercase;
@@ -27,6 +30,7 @@ h2 {
     animation-name: fade-in;
     animation-duration: 2s;
 }
+
 .sign-up-background-image {
     height: 800px;
     width: 100%;
@@ -34,6 +38,19 @@ h2 {
     background-image: url('../images/background-image.jpg');
     background-size: cover;
     background-position: center;
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+
+.about-page-image {
+    height: 800px;
+    width: 100%;
+    background-color: #383737;
+    background-image: url('../images/about-page-image.jpg');
+    background-size: cover;
+    background-position: center;
+    animation-name: fade-in;
+    animation-duration: 2s;
 }
 
 .overlay {
@@ -41,9 +58,10 @@ h2 {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
     width: inherit;
-    
+
 
 }
+
 .vanquish-cover {
     margin-top: 350px;
     margin-left: 120px;
@@ -59,10 +77,12 @@ h2 {
     animation-name: fade-in;
     animation-duration: 3s;
 }
+
 .center {
     text-align: center;
 
 }
+
 .single-text {
     margin-top: 500px;
     margin-left: 100px;
@@ -75,16 +95,22 @@ h2 {
     animation-duration: 2s;
     text-shadow: 5px 5px 2px #000;
 }
+
 .copyright-text {
     color: white;
     font-family: "Exo 2", sans-serif;
     text-transform: uppercase;
 }
-.phone-background, .sign-up-phone-background {
+
+.phone-background,
+.sign-up-phone-background {
     background-color: #161616;
     z-index: 2;
 }
-#large-screen-top-section, #phone-only {
+
+#large-screen-top-section,
+#phone-only,
+#subscription-form {
     background-color: #383737;
 }
 
@@ -92,23 +118,34 @@ h2 {
     animation-name: slidein;
     animation-duration: 3s;
 }
+
+.single-text-slidein-down {
+    animation-name: slideindown;
+    animation-duration: 3s;
+}
+
 /*-----------------Sign Up section-------------------*/
 .sign-up-text-container {
     position: relative;
 }
+
 .sign-up-text {
     padding-left: 50px;
     padding-right: 50px;
     color: white;
     font-family: "Exo 2", sans-serif;
     text-transform: uppercase;
+    animation-name: fade-in;
+    animation-duration: 2s;
+    text-shadow: 5px 5px 2px #000;
 }
+
 .sign-up-form {
     margin: 0 auto;
     margin-top: 160px;
     height: 60%;
     width: 80%;
-    background-color:#b8b5b5;
+    background-color: #b8b5b5;
     border-radius: 10px;
     z-index: 2;
     opacity: 0.7;
@@ -116,29 +153,34 @@ h2 {
 }
 
 .asterisk {
-    color: red !important; 
-    display: inline; 
+    color: red !important;
+    display: inline;
     float: none;
 }
+
 .form-width {
     width: 100%;
 }
+
 .label {
     text-align: left;
     color: #000;
     font-family: "Exo 2", sans-serif;
 }
+
 .submit-button {
     margin-top: 20px;
-    
+
 }
+
 .sign-up-phone-background {
     padding-bottom: 30px;
 }
 
 
 
-#thank-you-text-section, #thank-you-phone-only {
+#thank-you-text-section,
+#thank-you-phone-only {
     background-color: #383737;
 }
 
@@ -152,22 +194,25 @@ h2 {
     background-position: center;
     overflow: visible;
     z-index: 2;
-    
+
 }
+
 #nav {
     margin: 0;
 }
-.nav-selector
- {
+
+.nav-selector {
     width: 100%;
 }
 
 .menu-item-color-a {
     background-color: #1a1a1a;
 }
+
 .menu-item-color-b {
     background-color: #383737;
 }
+
 .menuitem a {
     color: white;
     text-decoration: none;
@@ -178,12 +223,31 @@ h2 {
     height: 100%;
     text-transform: uppercase;
     padding-top: 18px;
-    transition:color ease-in 0.3s;
-    
+    transition: color ease-in 0.3s;
+
 }
+
 .menuitem a:hover {
     color: #000;
 }
+
+.nav-item a {
+    color: white;
+    width: 100%;
+    font-family: 'Rubik Glitch', fantasy;
+    text-transform: uppercase;
+    padding-left: 20px;
+    transition: ease-in 0.2s;
+}
+
+.nav-item a:hover {
+    color: #000;
+}
+
+.active-page {
+    color: #000;
+}
+
 .menuitem {
     text-align: center;
     height: 80px;
@@ -196,11 +260,21 @@ h2 {
 }
 
 .hvr-sweep-to-bottom {
-    padding: 0!important;
+    padding: 0 !important;
+}
+.hvr-sweep-to-right:before {
+    background: #c3e4ff;
 }
 .hvr-sweep-to-bottom:before {
     background: #c3e4ff;
 }
+.social-links-list a i {
+    transition: ease-in 0.2s;
+}
+.social-links-list a i:hover {
+    color: #31628d;
+}
+
 /*---------Heading align styling-------------*/
 
 
@@ -213,30 +287,30 @@ li {
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
+
 .menu-container {
     font-size: 0;
 }
+
 #nav li {
     font-size: 14px;
 }
+
 .navbar {
     padding: 0;
 }
+
 .navbar-toggler {
     border-color: #797979;
     margin-right: 15px;
 }
+
 .navbar .navbar-toggler span i {
     color: #797979;
 }
 
 
-.navbar-collapse .nav-item .nav-link {
-    color: white;
-    font-family: 'Rubik Glitch', fantasy;
-    text-transform: uppercase;
-    padding-left: 20px;
-}
+
 
 
 
@@ -250,9 +324,11 @@ li {
 .music-section {
     background-color: #000;
 }
+
 #music {
     background-color: #000;
 }
+
 .music-title {
     padding-bottom: 30px;
     padding-top: 30px;
@@ -261,10 +337,11 @@ li {
     padding-right: 30px;
     animation-name: fade-in;
     animation-duration: 2s;
-    
-    
+
+
 
 }
+
 .descriptions {
     text-align: center;
     color: #fafafa;
@@ -274,13 +351,16 @@ li {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .video-description {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .spotify {
     margin-top: 100px;
 }
+
 .amazon {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -289,14 +369,17 @@ li {
 .spotify-button {
     margin-top: 20px;
     font-size: 22px;
-    border-radius: 30px;;
+    border-radius: 30px;
+    ;
     width: 100px;
 }
+
 .music-links {
     padding-right: 50px;
-    
+
 
 }
+
 .music-video {
     text-align: center;
     display: inline-block;
@@ -305,9 +388,26 @@ li {
     margin-bottom: 50px;
     padding-right: 0;
 }
+
 .embedded-video {
     width: 90%;
     min-height: 400px;
+}
+
+.spotify button {
+    transition: ease-in 0.3s;
+}
+.spotify button:hover {
+    color: #000;
+}
+
+.amazon button {
+    transition: ease-in 0.3s;
+}
+.amazon button:hover {
+    background-color: #8f5202;
+    color: 	#7abbec;
+    border-color: #8f5202;
 }
 
 
@@ -319,15 +419,18 @@ li {
     animation-duration: 2s;
 
 }
-.social-links-list > .social-link-item {
+
+.social-links-list>.social-link-item {
     font-size: 40px;
     text-align: center;
     margin: 20px 0 20px 0;
 }
+
 footer {
-    background-color:#302f2f;
+    background-color: #302f2f;
     padding: 40px;
 }
+
 .social-links-list .social-link-item i {
     color: #c3e4ff;
 }
@@ -339,19 +442,31 @@ footer {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
+
 @keyframes slidein {
     from {
-    transform: translateY(12%);
+        transform: translateY(12%);
     }
-    
+
     to {
-    transform: translateY(0%);
+        transform: translateY(0%);
     }
+}
+
+@keyframes slideindown {
+    from {
+        transform: translateY(-10%);
     }
+
+    to {
+        transform: translateY(0%);
+    }
+}
 
 /*-----------Thank You Page--------------*/
 
@@ -370,6 +485,7 @@ footer {
     background-size: cover;
     background-position: center;
 }
+
 /*------------Media Queries-------------*/
 @media screen and (max-width: 1290px) {
     .menuitem a {
@@ -385,8 +501,9 @@ footer {
 
 @media (min-width: 632px) {
     .d-custom-none {
-        display: none!important;
+        display: none !important;
     }
+
     .form-contents {
         position: absolute;
         top: 50%;
@@ -394,14 +511,16 @@ footer {
         transform: translateY(-50%);
         padding: 10%;
     }
+
     #thank-you-header {
         min-height: 0px;
     }
-    #thank-you-header .container-fluid .logo{
+
+    #thank-you-header .container-fluid .logo {
         height: 80px;
     }
-    
 }
+
 @media (min-width: 768px) {
     .thank-you-text {
         position: absolute;
@@ -409,7 +528,7 @@ footer {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
-    
+
     .right-align-heading {
         text-align: right;
         margin-right: 100px;
@@ -419,6 +538,7 @@ footer {
         text-align: left;
         margin-left: 100px;
     }
+
     .centralize {
         position: absolute;
         top: 50%;
@@ -427,48 +547,60 @@ footer {
         padding: 10%;
     }
 }
+
 @media (max-width: 767px) {
-    
-    .right-align-heading, .left-align-heading {
-        text-align: center;  
+
+    .right-align-heading,
+    .left-align-heading {
+        text-align: center;
     }
+
     .spotify {
         margin-top: 10px;
     }
+
     .music-links {
         padding: 0;
     }
+
     .vanquish-cover {
         margin-left: 0;
         min-width: 0;
         min-height: 0;
         width: 70vw;
     }
+
     .single-text {
         margin: 0;
     }
+
     .sign-up-text {
         margin: 0;
         padding-top: 100px;
     }
+
     .sign-up-text-container {
         height: 20%;
     }
+
     .form-container {
         height: 80%;
     }
+
     .social-heading {
         margin-bottom: 20px;
-}
+    }
 }
 
 @media screen and (max-width: 631px) {
     .d-custom-maxwidth-none {
-        display: none!important;
+        display: none !important;
     }
+
     header {
         min-height: 47px;
     }
+
     .logo {
         min-width: 140px;
         max-width: 140px;
@@ -482,53 +614,67 @@ footer {
         margin: 0;
         position: relative;
     }
+
     .homepage-background-image {
         height: 120px;
         background-image: url('../images/background-image-phone.jpg');
     }
+
     .thank-you-background-image {
         height: 120px;
         background-image: url('../images/background-image-phone.jpg');
     }
+
     .sign-up-background-image {
         height: 120px;
         background-image: url('../images/background-image-phone.jpg');
-}
-.sign-up-form {
-    margin: 0 auto;
-    height: 95%;
-    width: 80%;
-    background-color:#b8b5b5;
-    border-radius: 10px;
-    z-index: 2;
-    opacity: 0.7;
-    position: relative;
-    
-}
-.single-text {
-    margin: 30px 25px 30px 25px;
-}
-.vanquish-cover {
-    margin-top: 30px;
-}
-.form-contents {
-    padding: 5%;
-}
-.sign-up-text {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    }
 
-}
-.social-heading {
-    font-size: 30px;
-}
-.social-links-list > .social-link-item {
-    font-size: 30px;
-    text-align: center;
-    margin: 5px 0 5px 0;
-}
-.thank-you-text {
-    margin: 0;
-    padding: 81px 50px 81px 50px;
-}
+    .sign-up-form {
+        margin: 0 auto;
+        height: 95%;
+        width: 80%;
+        background-color: #b8b5b5;
+        border-radius: 10px;
+        z-index: 2;
+        opacity: 0.7;
+        position: relative;
+
+    }
+
+    .single-text {
+        margin: 30px 25px 30px 25px;
+    }
+
+    .vanquish-cover {
+        margin-top: 30px;
+    }
+
+    .form-contents {
+        padding: 5%;
+    }
+
+    .sign-up-text {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .social-heading {
+        font-size: 30px;
+    }
+
+    .social-links-list>.social-link-item {
+        font-size: 30px;
+        text-align: center;
+        margin: 5px 0 5px 0;
+    }
+
+    .thank-you-text {
+        margin: 0;
+        padding: 81px 50px 81px 50px;
+    }
+    .single-text-slidein-down {
+        animation: none;
+    }
 }
