@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;1,600&family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;1,600&family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Rubik+Glitch&display=swap&family=Great+Vibes&display=swap');
 
 /*----Header styling--*/
 body {
@@ -51,6 +51,15 @@ h2 {
     background-position: center;
     animation-name: fade-in;
     animation-duration: 2s;
+    
+}
+
+.about-overlay {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    width: inherit;
+    padding-top: 20%;
 }
 
 .overlay {
@@ -110,9 +119,12 @@ h2 {
 
 #large-screen-top-section,
 #phone-only,
-#subscription-form {
+#subscription-form, 
+#about-section-main {
     background-color: #383737;
 }
+
+
 
 .slide-in-animation {
     animation-name: slidein;
@@ -123,6 +135,36 @@ h2 {
     animation-name: slideindown;
     animation-duration: 3s;
 }
+/*----------About section----------------------*/
+.full-height {
+    height: 100%;
+
+}
+
+.about-description-container {
+    height: 60%;
+    width: 60%;
+    background-color: #1a1a1a;
+    margin: 0 auto;
+    opacity: 0.8;
+    border-radius: 10px;
+    position: relative;
+}
+
+.about-text, .about-heading {
+    font-family: "Great vibes", serif;
+    color: white;
+}
+.about-text {
+    font-size: 25px;
+    padding: 30px;
+}
+.about-heading {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
 
 /*-----------------Sign Up section-------------------*/
 .sign-up-text-container {
