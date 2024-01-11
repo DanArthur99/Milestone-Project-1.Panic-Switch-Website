@@ -59,7 +59,7 @@ h2 {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
     width: inherit;
-    padding-top: 20%;
+    padding-top: 25vh;
 }
 
 .overlay {
@@ -112,17 +112,19 @@ h2 {
 }
 
 .phone-background,
-.sign-up-phone-background {
+.sign-up-phone-background,
+.about-phone-only {
     background-color: #161616;
     z-index: 2;
 }
-
+   
 #large-screen-top-section,
 #phone-only,
 #subscription-form, 
-#about-section-main {
+#about-section-main  {
     background-color: #383737;
 }
+
 
 
 
@@ -158,6 +160,7 @@ h2 {
 .about-text {
     font-size: 25px;
     padding: 30px;
+    margin: 0;
 }
 .about-heading {
     font-size: 40px;
@@ -670,6 +673,13 @@ footer {
     .sign-up-background-image {
         height: 120px;
         background-image: url('../images/background-image-phone.jpg');
+    }
+    .about-page-image {
+        height: 120px;
+        background-image: url('../images/about-page-image-phone.jpg')
+    }
+    .about-overlay {
+        padding: 0;
     }
 
     .sign-up-form {
