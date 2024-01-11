@@ -15,18 +15,15 @@
 </head>
 
 <body>
+  <!----------------------Header section------------------------->
   <header>
     <div class="container-fluid p-0">
+      <!------------Navbar Section----------------------------------->
       <div class="row g-0 justify-content-between nav-container">
-
-
-        <a href="index.html" class="d-custom-maxwidth-none d-block col-12 col-md-2 image-container logo"></a>
-
-
-
-
+        <!------------------------Navbar band logo (LARGE SCREENS ONLY)--------------------->
+        <a href="index.html" class="d-custom-maxwidth-none d-block col-12 col-md-2 logo"></a>
+        <!----------Navbar togger (FOR SMALLER SCREENS)----------------->
         <nav class="navbar navbar-expand-md navbar-custom d-custom-none">
-
           <div class="container-fluid p-0">
             <a class="navbar-brand logo" href="index.html"></a>
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -53,13 +50,12 @@
                 <li class="nav-item menu-item-color-b">
                   <a class="nav-link hvr-sweep-to-right" href="sign-up.html">Sign Up</a>
                 </li>
-
               </ul>
             </div>
           </div>
         </nav>
 
-        <!--Large screen nav bar-->
+        <!---------------------Navbar (LARGE SCREENS ONLY)---------------------->
         <div class="col-sm-8 col-md-7">
           <div class="row g-0">
             <div class="col nav-selector">
@@ -81,37 +77,41 @@
               </nav>
             </div>
           </div>
-
         </div>
-
       </div>
-
-
-
-
     </div>
   </header>
 
+  <!-----------------Main Text Box Section (LARGE SCREENS ONLY) (top image only on phone screens)---------------------->
   <section id="about-section-main">
     <div class="about-page-image">
-      <div class="about-overlay">
-        <div class="about-description-container slide-in-animation d-custom-maxwidth-none">
-          <h3 class="about-heading">Who we are</h3>
-          <p class="about-text">Panic Switch is a British heavey metal band based in Cheltenham, UK. <br> <br> Consisting of five members, our style is a mixture of modern heavy metal along with more traditional thrash metal elements</p>
+      <div class="overlay about-overlay">
+        <div class="slide-in-animation">
+          <div class="about-description-container d-custom-maxwidth-none">
+            <h3 class="about-heading">Who we are</h3>
+            <p class="about-text">Panic Switch is a British heavey metal band based in Cheltenham, UK. <br> <br>
+              Consisting of five members, our style is a mixture of modern heavy metal along with more traditional
+              thrash
+              metal elements</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="about-phone-only">
-    <div class="about-phone-only">
+  <!---------------------------Main Text Box Section (SMALLER SCREENS ONLY)--------------------------------->
+  <section id="about-phone-only" class="d-custom-none">
+    <div class="phone-background">
       <div class="slide-in-animation">
         <h3 class="about-heading">Who we are</h3>
-      <p class="about-text">Panic Switch is a British heavey metal band based in Cheltenham, UK. <br> <br> Consisting of five members, our style is a mixture of modern heavy metal along with more traditional thrash metal elements</p>
+        <p class="about-text">Panic Switch is a British heavey metal band based in Cheltenham, UK. <br> <br> Consisting
+          of five members, our style is a mixture of modern heavy metal along with more traditional thrash metal
+          elements</p>
       </div>
-      
-    </div>  
+
+    </div>
   </section>
+  <!--------------------Footer Section (contains social media links)------------------------->
   <footer>
     <div class="container-fluid p-0">
       <div id="about-social">
@@ -141,17 +141,12 @@
     </div>
   </footer>
 
-
-  </footer>
+  <!---------------------JavaScript CDN links--------------------------->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
     crossorigin="anonymous"></script>
-</body>
-</body>
-
-</html>
 </body>
 
 </html>

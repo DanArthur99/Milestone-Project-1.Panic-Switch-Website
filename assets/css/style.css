@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;1,600&family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Rubik+Glitch&display=swap&family=Great+Vibes&display=swap');
 
-/*----Header styling--*/
+/*---------------Overall styling--------------------*/
 body {
     font-size: 20px;
 }
@@ -17,10 +17,9 @@ h2 {
     font-size: 45px;
 }
 
-/*---First section styling--*/
+/*-----------------Top section styling-------------------*/
 
-
-.homepage-background-image {
+.background-image {
     height: 800px;
     width: 100%;
     background-color: #383737;
@@ -29,36 +28,9 @@ h2 {
     background-position: center;
     animation-name: fade-in;
     animation-duration: 2s;
-}
-
-.sign-up-background-image {
-    height: 800px;
-    width: 100%;
-    background-color: #383737;
-    background-image: url('../images/background-image.jpg');
-    background-size: cover;
-    background-position: center;
-    animation-name: fade-in;
-    animation-duration: 2s;
-}
-
-.about-page-image {
-    height: 800px;
-    width: 100%;
-    background-color: #383737;
-    background-image: url('../images/about-page-image.jpg');
-    background-size: cover;
-    background-position: center;
-    animation-name: fade-in;
-    animation-duration: 2s;
-    
 }
 
 .about-overlay {
-    height: inherit;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-    width: inherit;
     padding-top: 25vh;
 }
 
@@ -67,8 +39,6 @@ h2 {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
     width: inherit;
-
-
 }
 
 .vanquish-cover {
@@ -111,23 +81,21 @@ h2 {
     text-transform: uppercase;
 }
 
-.phone-background,
-.sign-up-phone-background,
-.about-phone-only {
+.phone-background {
     background-color: #161616;
     z-index: 2;
 }
-   
-#large-screen-top-section,
-#phone-only,
-#subscription-form, 
-#about-section-main  {
+
+#home-top-section,
+#home-phone-only,
+#subscription-form,
+#about-section-main,
+#thank-you-text-section,
+#thank-you-phone-only {
     background-color: #383737;
 }
 
-
-
-
+/*--------------------Animation classes------------------*/
 .slide-in-animation {
     animation-name: slidein;
     animation-duration: 3s;
@@ -137,10 +105,21 @@ h2 {
     animation-name: slideindown;
     animation-duration: 3s;
 }
+
 /*----------About section----------------------*/
 .full-height {
     height: 100%;
+}
 
+.about-page-image {
+    height: 800px;
+    width: 100%;
+    background-color: #383737;
+    background-image: url('../images/about-page-image.jpg');
+    background-size: cover;
+    background-position: center;
+    animation-name: fade-in;
+    animation-duration: 2s;
 }
 
 .about-description-container {
@@ -151,38 +130,32 @@ h2 {
     opacity: 0.8;
     border-radius: 10px;
     position: relative;
+    animation-name: fade-in;
+    animation-duration: 2s;
 }
 
-.about-text, .about-heading {
+.about-text,
+.about-heading {
     font-family: "Great vibes", serif;
     color: white;
 }
+
 .about-text {
     font-size: 25px;
     padding: 30px;
     margin: 0;
 }
+
 .about-heading {
     font-size: 40px;
     text-align: center;
     padding-top: 10px;
 }
 
-
 /*-----------------Sign Up section-------------------*/
+
 .sign-up-text-container {
     position: relative;
-}
-
-.sign-up-text {
-    padding-left: 50px;
-    padding-right: 50px;
-    color: white;
-    font-family: "Exo 2", sans-serif;
-    text-transform: uppercase;
-    animation-name: fade-in;
-    animation-duration: 2s;
-    text-shadow: 5px 5px 2px #000;
 }
 
 .sign-up-form {
@@ -195,6 +168,17 @@ h2 {
     z-index: 2;
     opacity: 0.7;
     position: relative;
+}
+
+.sign-up-text {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    text-transform: uppercase;
+    animation-name: fade-in;
+    animation-duration: 2s;
+    text-shadow: 5px 5px 2px #000;
 }
 
 .asterisk {
@@ -218,18 +202,16 @@ h2 {
 
 }
 
-.sign-up-phone-background {
-    padding-bottom: 30px;
+/*-----------------Thank You Page styling-----------------*/
+
+.thank-you-text {
+    font-family: 'Rubik Glitch', fantasy;
+    color: white;
+    text-transform: uppercase;
+    padding: 100px;
 }
 
-
-
-#thank-you-text-section,
-#thank-you-phone-only {
-    background-color: #383737;
-}
-
-/*----Nav menu styling---*/
+/*---------------------------Nav menu styling---------------------*/
 
 .logo {
     min-width: 190px;
@@ -237,9 +219,10 @@ h2 {
     background-image: url("../images/panic-switch-logo.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     overflow: visible;
+    margin: 0;
     z-index: 2;
-
 }
 
 #nav {
@@ -307,26 +290,26 @@ h2 {
 .hvr-sweep-to-bottom {
     padding: 0 !important;
 }
+
 .hvr-sweep-to-right:before {
     background: #c3e4ff;
 }
+
 .hvr-sweep-to-bottom:before {
     background: #c3e4ff;
 }
+
 .social-links-list a i {
     transition: ease-in 0.2s;
 }
+
 .social-links-list a i:hover {
     color: #31628d;
 }
 
-/*---------Heading align styling-------------*/
-
-
-
 li {
     margin: 0;
-    width: 100%;
+    width: 100%; 
 }
 
 .list-inline-item:not(:last-child) {
@@ -337,8 +320,11 @@ li {
     font-size: 0;
 }
 
+/*-----------Navbar styling (mobile toggler)------------*/
+
 #nav li {
     font-size: 14px;
+    
 }
 
 .navbar {
@@ -354,18 +340,13 @@ li {
     color: #797979;
 }
 
-
-
-
-
-
-/*---Navbar toggler styling---*/
-
 .navbar-custom {
     background-color: #000000;
 }
 
+
 /*-----------Music Section Styling--------------*/
+
 .music-section {
     background-color: #000;
 }
@@ -382,9 +363,6 @@ li {
     padding-right: 30px;
     animation-name: fade-in;
     animation-duration: 2s;
-
-
-
 }
 
 .descriptions {
@@ -415,14 +393,11 @@ li {
     margin-top: 20px;
     font-size: 22px;
     border-radius: 30px;
-    ;
     width: 100px;
 }
 
 .music-links {
     padding-right: 50px;
-
-
 }
 
 .music-video {
@@ -442,6 +417,7 @@ li {
 .spotify button {
     transition: ease-in 0.3s;
 }
+
 .spotify button:hover {
     color: #000;
 }
@@ -449,14 +425,20 @@ li {
 .amazon button {
     transition: ease-in 0.3s;
 }
+
 .amazon button:hover {
     background-color: #8f5202;
-    color: 	#7abbec;
+    color: #7abbec;
     border-color: #8f5202;
 }
 
-
 /*------------------Footer styling----------------*/
+
+footer {
+    background-color: #302f2f;
+    padding: 40px;
+}
+
 .social-heading {
     margin-bottom: 60px;
     color: rgb(199, 223, 199);
@@ -471,17 +453,12 @@ li {
     margin: 20px 0 20px 0;
 }
 
-footer {
-    background-color: #302f2f;
-    padding: 40px;
-}
-
 .social-links-list .social-link-item i {
     color: #c3e4ff;
 }
 
 
-/*--------------Keyframes--------------*/
+/*----------------------Keyframes------------------------*/
 
 @keyframes fade-in {
     0% {
@@ -513,25 +490,8 @@ footer {
     }
 }
 
-/*-----------Thank You Page--------------*/
-
-.thank-you-text {
-    font-family: 'Rubik Glitch', fantasy;
-    color: white;
-    text-transform: uppercase;
-    padding: 100px;
-}
-
-.thank-you-background-image {
-    height: 800px;
-    width: 100%;
-    background-color: #383737;
-    background-image: url('../images/background-image.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
 /*------------Media Queries-------------*/
+
 @media screen and (max-width: 1290px) {
     .menuitem a {
         font-size: 0.9rem;
@@ -637,7 +597,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 631px) {
+@media (max-width: 631px) {
     .d-custom-maxwidth-none {
         display: none !important;
     }
@@ -650,36 +610,26 @@ footer {
         min-width: 140px;
         max-width: 140px;
         height: 63px;
-        background-image: url("../images/panic-switch-logo.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        overflow: visible;
-        z-index: 2;
-        margin: 0;
         position: relative;
     }
 
-    .homepage-background-image {
+    .background-image {
         height: 120px;
         background-image: url('../images/background-image-phone.jpg');
     }
 
-    .thank-you-background-image {
-        height: 120px;
-        background-image: url('../images/background-image-phone.jpg');
-    }
-
-    .sign-up-background-image {
-        height: 120px;
-        background-image: url('../images/background-image-phone.jpg');
-    }
     .about-page-image {
         height: 120px;
         background-image: url('../images/about-page-image-phone.jpg')
     }
+
     .about-overlay {
         padding: 0;
+    }
+    .about-text,
+    .about-heading {
+        animation-name: fade-in;
+        animation-duration: 2s;
     }
 
     .sign-up-form {
@@ -691,7 +641,6 @@ footer {
         z-index: 2;
         opacity: 0.7;
         position: relative;
-
     }
 
     .single-text {
@@ -700,6 +649,10 @@ footer {
 
     .vanquish-cover {
         margin-top: 30px;
+    }
+
+    .sign-up-phone-background {
+        padding-bottom: 30px;
     }
 
     .form-contents {
@@ -726,6 +679,7 @@ footer {
         margin: 0;
         padding: 81px 50px 81px 50px;
     }
+
     .single-text-slidein-down {
         animation: none;
     }
