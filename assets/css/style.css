@@ -335,6 +335,7 @@ li {
 .about-overlay {
     padding-top: 25vh;
 }
+
 .about-description-container {
     height: 60%;
     width: 60%;
@@ -379,6 +380,7 @@ li {
     animation-name: fade-in;
     animation-duration: 2s;
 }
+
 .shows-title-text {
    text-align: center;
    padding: 0 20px 0 20px;
@@ -413,11 +415,13 @@ li {
     background-color: #161616;
     min-height: 200px;
 }
+
 .show-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .show-item {
     border-radius: 5px;
     padding: 0;
@@ -428,11 +432,13 @@ li {
     width: 90%;
     animation: fade-in 2s;
 }
+
 .show-date, .show-venue {
     padding: 15px;
     font-family: 'Rubik Glitch', fantasy;
     color: white;
 }
+
 .show-venue {
     padding-left: 30px;
     padding-right: 30px;
@@ -495,9 +501,11 @@ li {
     color: white;
     text-transform: uppercase;
 }
+
 .thank-you-text {
     padding: 100px;
 }
+
 /*------------------Footer styling----------------*/
 
 footer {
@@ -728,6 +736,7 @@ footer {
     .shows-title-text {
         font-size: 22px;
     }
+
     .about-text,
     .about-heading {
         animation-name: fade-in;
@@ -785,19 +794,23 @@ footer {
         animation: none;
     }
 }
+
 @media (max-width: 350px) {
     .upcoming-shows-title, .past-shows-title {
         font-size: 30px;
     }
+
     .shows-overlay {
         padding-top: 2.5vh;
     }
 }
+
 @media (max-width: 270px) {
     .shows-title-text {
         font-size: 17px;
     }
 }
+
 @media (max-width: 221px) {
     .shows-overlay {
         padding-top: 1vh;
