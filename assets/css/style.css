@@ -95,17 +95,6 @@ h2 {
     background-color: #383737;
 }
 
-/*--------------------Animation classes------------------*/
-.slide-in-animation {
-    animation-name: slidein;
-    animation-duration: 3s;
-}
-
-.single-text-slidein-down {
-    animation-name: slideindown;
-    animation-duration: 3s;
-}
-
 /*----------About section----------------------*/
 .full-height {
     height: 100%;
@@ -115,7 +104,7 @@ h2 {
     height: 800px;
     width: 100%;
     background-color: #383737;
-    background-image: url('../images/about-page-image.jpg');
+    background-image: url('../images/about-page-image.webp');
     background-size: cover;
     background-position: center;
     animation-name: fade-in;
@@ -130,7 +119,7 @@ h2 {
     opacity: 0.8;
     border-radius: 10px;
     position: relative;
-    animation-name: fade-in;
+    animation-name: fade-in-about;
     animation-duration: 2s;
 }
 
@@ -216,7 +205,7 @@ h2 {
 .logo {
     min-width: 190px;
     max-width: 190px;
-    background-image: url("../images/panic-switch-logo.jpg");
+    background-image: url("../images/panic-switch-logo.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -457,6 +446,16 @@ footer {
     color: #c3e4ff;
 }
 
+/*--------------------Animation classes------------------*/
+.slide-in-animation {
+    animation-name: slidein;
+    animation-duration: 3s;
+}
+
+.single-text-slidein-down {
+    animation-name: slideindown;
+    animation-duration: 3s;
+}
 
 /*----------------------Keyframes------------------------*/
 
@@ -467,6 +466,16 @@ footer {
 
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes fade-in-about {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.8;
     }
 }
 
@@ -554,7 +563,6 @@ footer {
 }
 
 @media (max-width: 767px) {
-
     .right-align-heading,
     .left-align-heading {
         text-align: center;
@@ -615,12 +623,12 @@ footer {
 
     .background-image {
         height: 120px;
-        background-image: url('../images/background-image-phone.jpg');
+        background-image: url('../images/background-image-phone.webp');
     }
 
     .about-page-image {
         height: 120px;
-        background-image: url('../images/about-page-image-phone.jpg')
+        background-image: url('../images/about-page-image-phone.webp')
     }
 
     .about-overlay {
@@ -662,7 +670,6 @@ footer {
     .sign-up-text {
         padding-top: 30px;
         padding-bottom: 30px;
-
     }
 
     .social-heading {
