@@ -503,7 +503,12 @@ li {
 }
 
 .thank-you-text {
-    padding: 100px;
+    padding: 200px;
+    animation: fade-in 2s;
+}
+
+.thank-you-phone-background {
+    height: 500px;
 }
 
 /*------------------Footer styling----------------*/
