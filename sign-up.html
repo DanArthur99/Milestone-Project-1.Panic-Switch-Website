@@ -54,7 +54,7 @@
             </div>
           </div>
         </nav>
-        
+
         <!---------------------Navbar (LARGE SCREENS ONLY)---------------------->
         <div class="col-sm-8 col-md-7">
           <div class="row g-0">
@@ -94,7 +94,9 @@
           <div class="col-12 col-md-6 center form-container">
             <!----------SIGN UP FORM------------->
             <div class="sign-up-form d-custom-maxwidth-none">
-              <!---->
+              <!--There is no 'method' attribute currently within the form element, this is because
+              it is causing a "405 not allowed" error when submitting the form using method="post" while
+              the page is deployed-->
               <form action="thank-you.html" class="form-contents">
                 <!------------------First name input----------------------->
                 <label for="first_name" class="col-12 label">First Name<span class="asterisk"> *</span></label>
@@ -375,6 +377,9 @@
         </div>
         <!-------------SIGN UP FORM (smaller screens only)-------------------->
         <div class="sign-up-form d-custom-none">
+          <!--There is no 'method' attribute currently within the form element, this is because
+          it is causing a "405 not allowed" error when submitting the form using method="post" while
+          the page is deployed-->
           <form action="thank-you.html" class="form-contents">
             <!------------------First name input----------------------->
             <label for="first_name" class="col-12 label">First Name<span class="asterisk"> *</span></label>
