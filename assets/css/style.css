@@ -4,7 +4,9 @@
 body {
     font-size: 20px;
 }
-
+.row {
+    margin: auto;
+}
 header {
     min-height: 80px;
     background-color: #000000;
@@ -19,7 +21,6 @@ h2 {
 .text-white {
     color: white;
 }
-
 
 /*---------------------------Nav menu styling---------------------*/
 
