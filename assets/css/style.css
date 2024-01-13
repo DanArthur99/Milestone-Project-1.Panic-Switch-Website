@@ -16,189 +16,10 @@ h2 {
     text-transform: uppercase;
     font-size: 45px;
 }
-
-/*-----------------Top section styling-------------------*/
-
-.background-image {
-    height: 800px;
-    width: 100%;
-    background-color: #383737;
-    background-image: url('../images/background-image.jpg');
-    background-size: cover;
-    background-position: center;
-    animation-name: fade-in;
-    animation-duration: 2s;
-}
-
-.about-overlay {
-    padding-top: 25vh;
-}
-
-.overlay {
-    height: inherit;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1;
-    width: inherit;
-}
-
-.vanquish-cover {
-    margin-top: 350px;
-    margin-left: 120px;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-width: 350px;
-    min-height: 350px;
-    max-width: 350px;
-    max-height: 350px;
-    box-shadow: 20px 20px 15px #0a0a0a;
-    animation-name: fade-in;
-    animation-duration: 3s;
-}
-
-.center {
-    text-align: center;
-
-}
-
-.single-text {
-    margin-top: 500px;
-    margin-left: 100px;
-    margin-right: 70px;
-    color: white;
-    font-size: 24px;
-    font-family: "Exo 2", sans-serif;
-    text-transform: uppercase;
-    animation-name: fade-in;
-    animation-duration: 2s;
-    text-shadow: 5px 5px 2px #000;
-}
-
-.copyright-text {
-    color: white;
-    font-family: "Exo 2", sans-serif;
-    text-transform: uppercase;
-}
-
-.phone-background {
-    background-color: #161616;
-    z-index: 2;
-}
-
-#home-top-section,
-#home-phone-only,
-#subscription-form,
-#about-section-main,
-#thank-you-text-section,
-#thank-you-phone-only {
-    background-color: #383737;
-}
-
-/*----------About section----------------------*/
-.full-height {
-    height: 100%;
-}
-
-.about-page-image {
-    height: 800px;
-    width: 100%;
-    background-color: #383737;
-    background-image: url('../images/about-page-image.webp');
-    background-size: cover;
-    background-position: center;
-    animation-name: fade-in;
-    animation-duration: 2s;
-}
-
-.about-description-container {
-    height: 60%;
-    width: 60%;
-    background-color: #1a1a1a;
-    margin: 0 auto;
-    opacity: 0.8;
-    border-radius: 10px;
-    position: relative;
-    animation-name: fade-in-about;
-    animation-duration: 2s;
-}
-
-.about-text,
-.about-heading {
-    font-family: "Great vibes", serif;
+.text-white {
     color: white;
 }
 
-.about-text {
-    font-size: 25px;
-    padding: 30px;
-    margin: 0;
-}
-
-.about-heading {
-    font-size: 40px;
-    text-align: center;
-    padding-top: 10px;
-}
-
-/*-----------------Sign Up section-------------------*/
-
-.sign-up-text-container {
-    position: relative;
-}
-
-.sign-up-form {
-    margin: 0 auto;
-    margin-top: 160px;
-    height: 60%;
-    width: 80%;
-    background-color: #b8b5b5;
-    border-radius: 10px;
-    z-index: 2;
-    opacity: 0.7;
-    position: relative;
-}
-
-.sign-up-text {
-    padding-left: 50px;
-    padding-right: 50px;
-    color: white;
-    font-family: "Exo 2", sans-serif;
-    text-transform: uppercase;
-    animation-name: fade-in;
-    animation-duration: 2s;
-    text-shadow: 5px 5px 2px #000;
-}
-
-.asterisk {
-    color: red !important;
-    display: inline;
-    float: none;
-}
-
-.form-width {
-    width: 100%;
-}
-
-.label {
-    text-align: left;
-    color: #000;
-    font-family: "Exo 2", sans-serif;
-}
-
-.submit-button {
-    margin-top: 20px;
-
-}
-
-/*-----------------Thank You Page styling-----------------*/
-
-.thank-you-text {
-    font-family: 'Rubik Glitch', fantasy;
-    color: white;
-    text-transform: uppercase;
-    padding: 100px;
-}
 
 /*---------------------------Nav menu styling---------------------*/
 
@@ -298,7 +119,7 @@ h2 {
 
 li {
     margin: 0;
-    width: 100%; 
+    width: 100%;
 }
 
 .list-inline-item:not(:last-child) {
@@ -313,7 +134,7 @@ li {
 
 #nav li {
     font-size: 14px;
-    
+
 }
 
 .navbar {
@@ -333,6 +154,79 @@ li {
     background-color: #000000;
 }
 
+/*-----------------Top section styling-------------------*/
+
+.background-image {
+    height: 800px;
+    width: 100%;
+    background-color: #383737;
+    background-size: cover;
+    background-image: url('../images/background-image.webp');
+    background-position: center;
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+
+.overlay {
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    width: inherit;
+}
+
+.vanquish-cover {
+    margin-top: 350px;
+    margin-left: 120px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 350px;
+    min-height: 350px;
+    max-width: 350px;
+    max-height: 350px;
+    box-shadow: 20px 20px 15px #0a0a0a;
+    animation-name: fade-in;
+    animation-duration: 3s;
+}
+
+.center {
+    text-align: center;
+
+}
+
+.single-text {
+    margin-top: 500px;
+    margin-left: 100px;
+    margin-right: 70px;
+    font-size: 24px;
+    font-family: "Exo 2", sans-serif;
+    text-transform: uppercase;
+    animation-name: fade-in;
+    animation-duration: 2s;
+    text-shadow: 5px 5px 2px #000;
+}
+
+.copyright-text {
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    text-transform: uppercase;
+}
+
+.phone-background, #shows-list {
+    background-color: #161616;
+    z-index: 2;
+}
+
+#home-top-section,
+#home-phone-only,
+#subscription-form,
+#about-section-main,
+#thank-you-text-section,
+#thank-you-phone-only, 
+#shows-title-bar {
+    background-color: #383737;
+}
 
 /*-----------Music Section Styling--------------*/
 
@@ -421,6 +315,188 @@ li {
     border-color: #8f5202;
 }
 
+/*----------About page styling----------------------*/
+
+.full-height {
+    height: 100%;
+}
+
+.about-page-image {
+    height: 800px;
+    width: 100%;
+    background-color: #383737;
+    background-image: url('../images/about-page-image.webp');
+    background-size: cover;
+    background-position: center;
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+
+.about-overlay {
+    padding-top: 25vh;
+}
+.about-description-container {
+    height: 60%;
+    width: 60%;
+    background-color: #1a1a1a;
+    margin: 0 auto;
+    opacity: 0.8;
+    border-radius: 10px;
+    position: relative;
+    animation-name: fade-in-about;
+    animation-duration: 2s;
+}
+
+.about-text,
+.about-heading {
+    font-family: "Great vibes", serif;
+    color: white;
+}
+
+.about-text {
+    font-size: 25px;
+    padding: 30px;
+    margin: 0;
+}
+
+.about-heading {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/*-----------------------Shows Page Styling---------------*/
+
+.shows-page-image {
+    height: 500px;
+    width: 100%;
+    background-color: #383737;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/shows-image.webp');
+    background-position: center;
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+.shows-title-text {
+   text-align: center;
+   padding: 0 20px 0 20px;
+   text-shadow: #000 20px 10px 5px;;
+   animation-name: fade-in;
+   animation-duration: 2s;
+}
+
+.shows-overlay {
+    padding-top: 25vh;
+}
+
+.past-shows-title, .upcoming-shows-title {
+    padding: 40px;
+    animation: fade-in 2s;
+}
+
+.upcoming-shows-title {
+    text-align: right;
+}
+
+.no-shows {
+    font-family: "Exo 2", sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    padding: 20px;
+    animation: fade-in 2s;
+    text-align: center;
+}
+
+.shows-section { 
+    background-color: #161616;
+    min-height: 200px;
+}
+.show-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.show-item {
+    border-radius: 5px;
+    padding: 0;
+    margin: 20px 5px 20px 5px;
+    display: inline-block;
+    text-align: center;
+    background-color: #464545;
+    width: 90%;
+    animation: fade-in 2s;
+}
+.show-date, .show-venue {
+    padding: 15px;
+    font-family: 'Rubik Glitch', fantasy;
+    color: white;
+}
+.show-venue {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*-----------------Sign Up Page Styling-------------------*/
+
+.sign-up-text-container {
+    position: relative;
+}
+
+.sign-up-form {
+    margin: 0 auto;
+    margin-top: 160px;
+    height: 60%;
+    width: 80%;
+    background-color: #b8b5b5;
+    border-radius: 10px;
+    z-index: 2;
+    opacity: 0.7;
+    position: relative;
+}
+
+.sign-up-text {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    text-transform: uppercase;
+    animation-name: fade-in;
+    animation-duration: 2s;
+    text-shadow: 5px 5px 2px #000;
+}
+
+.asterisk {
+    color: red !important;
+    display: inline;
+    float: none;
+}
+
+.form-width {
+    width: 100%;
+}
+
+.label {
+    text-align: left;
+    color: #000;
+    font-family: "Exo 2", sans-serif;
+}
+
+.submit-button {
+    margin-top: 20px;
+
+}
+
+/*-----------------Thank You Page styling-----------------*/
+
+.title-text {
+    font-family: 'Rubik Glitch', fantasy;
+    color: white;
+    text-transform: uppercase;
+}
+.thank-you-text {
+    padding: 100px;
+}
 /*------------------Footer styling----------------*/
 
 footer {
@@ -563,6 +639,7 @@ footer {
 }
 
 @media (max-width: 767px) {
+
     .right-align-heading,
     .left-align-heading {
         text-align: center;
@@ -603,6 +680,9 @@ footer {
     .social-heading {
         margin-bottom: 20px;
     }
+    .past-shows-title, .upcoming-shows-title {
+        text-align: center;
+    }
 }
 
 @media (max-width: 631px) {
@@ -631,8 +711,21 @@ footer {
         background-image: url('../images/about-page-image-phone.webp')
     }
 
-    .about-overlay {
+    .shows-page-image {
+        height: 120px;
+        background-image: url('../images/shows-image.webp')
+    }
+
+    .shows-overlay {
+        padding-top: 4vh;
+    }
+
+    .about-overlay { 
         padding: 0;
+    }
+
+    .shows-title-text {
+        font-size: 22px;
     }
     .about-text,
     .about-heading {
@@ -689,5 +782,23 @@ footer {
 
     .single-text-slidein-down {
         animation: none;
+    }
+}
+@media (max-width: 350px) {
+    .upcoming-shows-title, .past-shows-title {
+        font-size: 30px;
+    }
+    .shows-overlay {
+        padding-top: 2.5vh;
+    }
+}
+@media (max-width: 270px) {
+    .shows-title-text {
+        font-size: 17px;
+    }
+}
+@media (max-width: 221px) {
+    .shows-overlay {
+        padding-top: 1vh;
     }
 }
