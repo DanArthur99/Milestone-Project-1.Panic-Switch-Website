@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;1,600&family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Rubik+Glitch&display=swap&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;1,600&family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&family=Rubik+Glitch&display=swap');
 
 /*---------------Overall styling--------------------*/
 body {
@@ -349,7 +349,7 @@ li {
 
 .about-text,
 .about-heading {
-    font-family: "Great vibes", serif;
+    font-family: "Exo 2", sans-serif;
     color: white;
 }
 
@@ -363,6 +363,7 @@ li {
     font-size: 40px;
     text-align: center;
     padding-top: 10px;
+    font-style: italic;
 }
 
 /*-----------------------Shows Page Styling---------------*/
