@@ -8,7 +8,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <script src="https://kit.fontawesome.com/1fe513f74d.js" crossorigin="anonymous"></script>
-    <title>Panic Switch - About</title>
+    <title>404 Error - Page Not Found!</title>
 </head>
 
 <body>
@@ -21,38 +21,50 @@
         </nav>
     </header>
 
-    <!------------------Thank You Main Text Section (LARGE SCREENS ONLY)----------------------->
+    <!------------------404 Main TextSection (LARGE SCREENS ONLY)----------------------->
     <section id="thank-you-text-section">
         <div class="background-image">
             <div class="overlay">
                 <div class="row">
-                    <div class="col-12">
-                        <h1 class="title-text d-custom-maxwidth-none">404 Page Not Found!</h1>
-                        <p class="white-exo2-text">Oops, seems we can't find that
-                            page, please click the button below to go back to the home page</p>
-                        <form action="index.html">
-                            <button type="submit" class="btn btn-danger submit-button">Home</button>
-                        </form>
+                    <div class="col-12 flex-center-container">
+                        <div class="centralize">
+                            <h1 class="title-text text-center d-custom-maxwidth-none text-shadow">404 Page Not Found!
+                            </h1>
+                            <p class="white-exo2-text text-center d-custom-maxwidth-none text-shadow">Oops, seems we
+                                can't find that
+                                page. <br>Please click the button below to go back to the home page</p>
+                            <form action="index.html" class="d-custom-maxwidth-none">
+                                <div class="flex-center-container">
+                                    <button type="submit" class="btn btn-danger submit-button">Home</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!------------------Thank You Main Text Section (SMALLER SCREENS ONLY)----------------------->
+    <!------------------404 Main Text Section (SMALLER SCREENS ONLY)----------------------->
     <section id="thank-you-phone-only" class="d-custom-none">
-        <div class="phone-background thank-you-phone-background">
-            <h1 class="thank-you-text title-text d-custom-none">Oops, seems we can't find that
-                page, please click the button below to go back to the home page
-            </h1>
-            <form action="index.html">
-                <button type="submit" class="btn btn-danger submit-button">Home</button>
-            </form>
+        <div class="phone-background thank-you-and-404-phone-background">
+            <div class="flex-center-container">
+                <div class="not-found-message-container-phones">
+                    <h1 class="title-text text-center d-custom-none">404 Page Not Found!</h1>
+                    <p class="white-exo2-text text-center d-custom-none">Oops, seems we can't find that
+                        page. <br>Please click the button below to go back to the home page</p>
+                    <form action="index.html" class="d-custom-none">
+                        <div class="flex-center-container">
+                            <button type="submit" class="btn btn-danger submit-button">Home</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!------------------------Thank You Page Footer Section------------------------------------------>
-    <footer id="thank-you-footer">
+    <!------------------------404 Page Footer Section------------------------------------------>
+    <footer id="not-found-footer">
         <div class="row">
             <div class="col center white-exo2-text">
                 <p>Copyright &copy; Panic Switch 2024</p>

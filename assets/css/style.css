@@ -4,9 +4,11 @@
 body {
     font-size: 20px;
 }
+
 .row {
     margin: auto;
 }
+
 header {
     min-height: 80px;
     background-color: #000000;
@@ -21,6 +23,20 @@ h2 {
 
 .text-white {
     color: white;
+}
+
+.text-shadow {
+    text-shadow: 5px 5px 2px #000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex-center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*---------------------------Nav menu styling---------------------*/
@@ -64,7 +80,6 @@ h2 {
     text-transform: uppercase;
     padding-top: 18px;
     transition: color ease-in 0.3s;
-
 }
 
 .menuitem a:hover {
@@ -136,7 +151,6 @@ li {
 
 #nav li {
     font-size: 14px;
-
 }
 
 .navbar {
@@ -192,7 +206,6 @@ li {
 
 .center {
     text-align: center;
-
 }
 
 .single-text {
@@ -213,7 +226,8 @@ li {
     text-transform: uppercase;
 }
 
-.phone-background, #shows-list {
+.phone-background,
+#shows-list {
     background-color: #161616;
     z-index: 2;
 }
@@ -223,7 +237,7 @@ li {
 #subscription-form,
 #about-section-main,
 #thank-you-text-section,
-#thank-you-phone-only, 
+#thank-you-phone-only,
 #shows-title-bar {
     background-color: #383737;
 }
@@ -380,18 +394,19 @@ li {
 }
 
 .shows-title-text {
-   text-align: center;
-   padding: 0 20px 0 20px;
-   text-shadow: #000 20px 10px 5px;;
-   animation-name: fade-in;
-   animation-duration: 2s;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    text-shadow: #000 20px 10px 5px;
+    animation-name: fade-in;
+    animation-duration: 2s;
 }
 
 .shows-overlay {
     padding-top: 25vh;
 }
 
-.past-shows-title, .upcoming-shows-title {
+.past-shows-title,
+.upcoming-shows-title {
     padding: 40px;
     animation: fade-in 2s;
 }
@@ -409,16 +424,13 @@ li {
     text-align: center;
 }
 
-.shows-section { 
+.shows-section {
     background-color: #161616;
     min-height: 200px;
 }
 
 .show-container {
     padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .show-item {
@@ -432,7 +444,8 @@ li {
     animation: fade-in 2s;
 }
 
-.show-date, .show-venue {
+.show-date,
+.show-venue {
     padding: 15px;
     font-family: 'Rubik Glitch', fantasy;
     color: white;
@@ -504,8 +517,14 @@ li {
     padding: 200px;
 }
 
-.thank-you-phone-background {
-    height: 500px;
+.thank-you-and-404-phone-background {
+    height: 700px;
+}
+
+/*--------404 page-------------------------*/
+
+.not-found-message-container-phones {
+    padding: 100px 30px;
 }
 
 /*------------------Footer styling----------------*/
@@ -520,7 +539,6 @@ footer {
     color: rgb(199, 223, 199);
     animation-name: fade-in;
     animation-duration: 2s;
-
 }
 
 .social-links-list>.social-link-item {
@@ -534,6 +552,7 @@ footer {
 }
 
 /*--------------------Animation classes------------------*/
+
 .slide-in-animation {
     animation-name: slidein;
     animation-duration: 3s;
@@ -605,6 +624,32 @@ footer {
     }
 }
 
+@media (min-width: 768px) {
+    .thank-you-text {
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    .right-align-heading {
+        text-align: right;
+        margin-right: 100px;
+    }
+
+    .left-align-heading {
+        text-align: left;
+        margin-left: 100px;
+    }
+    .centralize-sign-up {
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 10%;
+    }
+}
+
 @media (min-width: 632px) {
     .d-custom-none {
         display: none !important;
@@ -624,25 +669,6 @@ footer {
 
     #thank-you-header .container-fluid .logo {
         height: 80px;
-    }
-}
-
-@media (min-width: 768px) {
-    .thank-you-text {
-        position: absolute;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);
-    }
-
-    .right-align-heading {
-        text-align: right;
-        margin-right: 100px;
-    }
-
-    .left-align-heading {
-        text-align: left;
-        margin-left: 100px;
     }
 
     .centralize {
@@ -696,7 +722,9 @@ footer {
     .social-heading {
         margin-bottom: 20px;
     }
-    .past-shows-title, .upcoming-shows-title {
+
+    .past-shows-title,
+    .upcoming-shows-title {
         text-align: center;
     }
 }
@@ -736,7 +764,7 @@ footer {
         padding-top: 4vh;
     }
 
-    .about-overlay { 
+    .about-overlay {
         padding: 0;
     }
 
@@ -802,8 +830,11 @@ footer {
     }
 }
 
+/*------Media Queries - Shows.html text and padding size---------------*/
+
 @media (max-width: 350px) {
-    .upcoming-shows-title, .past-shows-title {
+    .upcoming-shows-title,
+    .past-shows-title {
         font-size: 30px;
     }
 
@@ -812,14 +843,30 @@ footer {
     }
 }
 
-@media (max-width: 270px) {
+@media (max-width: 294px) {
     .shows-title-text {
-        font-size: 17px;
+        font-size: 18px;
     }
 }
 
 @media (max-width: 221px) {
     .shows-overlay {
         padding-top: 1vh;
+    }
+}
+
+@media (max-width: 174px) {
+    .shows-title-text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 156px) {
+    .shows-overlay {
+        padding-top: 2vh;
+    }
+
+    .shows-title-text {
+        font-size: 13px;
     }
 }
