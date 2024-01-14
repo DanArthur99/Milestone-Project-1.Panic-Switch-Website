@@ -18,6 +18,7 @@ h2 {
     text-transform: uppercase;
     font-size: 45px;
 }
+
 .text-white {
     color: white;
 }
@@ -164,8 +165,6 @@ li {
     background-size: cover;
     background-image: url('../images/background-image.webp');
     background-position: center;
-    animation-name: fade-in;
-    animation-duration: 2s;
 }
 
 .overlay {
@@ -208,7 +207,7 @@ li {
     text-shadow: 5px 5px 2px #000;
 }
 
-.copyright-text {
+.white-exo2-text {
     color: white;
     font-family: "Exo 2", sans-serif;
     text-transform: uppercase;
@@ -378,8 +377,6 @@ li {
     background-repeat: no-repeat;
     background-image: url('../images/shows-image.webp');
     background-position: center;
-    animation-name: fade-in;
-    animation-duration: 2s;
 }
 
 .shows-title-text {
@@ -493,7 +490,6 @@ li {
 
 .submit-button {
     margin-top: 20px;
-
 }
 
 /*-----------------Thank You Page styling-----------------*/
@@ -506,7 +502,6 @@ li {
 
 .thank-you-text {
     padding: 200px;
-    animation: fade-in 2s;
 }
 
 .thank-you-phone-background {
@@ -547,6 +542,11 @@ footer {
 .single-text-slidein-down {
     animation-name: slideindown;
     animation-duration: 3s;
+}
+
+.fade-in {
+    animation-name: fade-in;
+    animation-duration: 2s;
 }
 
 /*----------------------Keyframes------------------------*/

@@ -4,9 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!---------5 second redirect---------->
-    <meta http-equiv="refresh" content="5;url=index.html" />
-    <!--------------------------------->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
@@ -30,8 +27,12 @@
             <div class="overlay">
                 <div class="row">
                     <div class="col-12">
-                        <h1 class="title-text thank-you-text d-custom-maxwidth-none">Thank You for Signing Up, you will now be
-                            redirected to our Home Page</h1>
+                        <h1 class="title-text d-custom-maxwidth-none">404 Page Not Found!</h1>
+                        <p class="white-exo2-text">Oops, seems we can't find that
+                            page, please click the button below to go back to the home page</p>
+                        <form action="index.html">
+                            <button type="submit" class="btn btn-danger submit-button">Home</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -41,8 +42,12 @@
     <!------------------Thank You Main Text Section (SMALLER SCREENS ONLY)----------------------->
     <section id="thank-you-phone-only" class="d-custom-none">
         <div class="phone-background thank-you-phone-background">
-            <h1 class="thank-you-text title-text d-custom-none">Thank You for Signing Up, you will now be redirected to our Home
-                Page</h1>
+            <h1 class="thank-you-text title-text d-custom-none">Oops, seems we can't find that
+                page, please click the button below to go back to the home page
+            </h1>
+            <form action="index.html">
+                <button type="submit" class="btn btn-danger submit-button">Home</button>
+            </form>
         </div>
     </section>
 
@@ -62,4 +67,5 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </body>
+
 </html>
