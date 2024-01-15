@@ -15,14 +15,14 @@
 </head>
 
 <body>
-  <!----------------------Header section------------------------->
+  <!-- ==================== Header section ===================== -->
   <header>
     <div class="container-fluid p-0">
-      <!------------Navbar Section----------------------------------->
+      <!-- ========== Navbar Section ======================= -->
       <div class="row g-0 justify-content-between nav-container">
-        <!------------------------Navbar band logo (large screens only)--------------------->
+        <!-- =============== Navbar band logo (large screens only) ==================== -->
         <a href="index.html" class="d-custom-maxwidth-none d-block col-12 col-md-2 logo"></a>
-        <!----------Navbar togger (for mobile screens)----------------->
+        <!-- ================ Navbar togger (for mobile screens) ================== -->
         <nav class="navbar navbar-expand-md navbar-custom d-custom-none">
           <div class="container-fluid p-0">
             <a class="navbar-brand logo" href="index.html"></a>
@@ -55,7 +55,7 @@
           </div>
         </nav>
 
-        <!---------------------Navbar (LARGE SCREENS ONLY)---------------------->
+        <!-- ===================== Navbar (LARGE SCREENS ONLY) ================== -->
         <div class="col-sm-8 col-md-7">
           <div class="row g-0">
             <div class="col nav-selector">
@@ -82,7 +82,7 @@
     </div>
   </header>
 
-  <!--------------------Sign Up Form Section (LARGE SCREENS ONLY)------------------------>
+  <!-- ================= Sign Up Form Section (LARGE SCREENS ONLY) ==================== -->
   <section id="subscription-form">
     <div class="container-fluid p-0">
       <div class="background-image fade-in">
@@ -92,22 +92,22 @@
               new music, shows, merch, etc.</h3>
           </div>
           <div class="col-12 col-md-6 center form-container">
-            <!----------SIGN UP FORM------------->
+            <!-- ================= SIGN UP FORM ================ -->
             <div class="sign-up-form d-custom-maxwidth-none">
-              <!--There is no 'method' attribute currently within the form element, this is because
+              <!-- There is no 'method' attribute currently within the form element, this is because
               it is causing a "405 not allowed" error when submitting the form using method="post" while
-              the page is deployed-->
+              the page is deployed -->
               <form action="thank-you.html" class="form-contents">
-                <!------------------First name input----------------------->
+                <!-- ================= First name input ==================== -->
                 <label for="first_name" class="col-12 label">First Name<span class="asterisk"> *</span></label>
                 <input type="text" id="first_name" name="fname" class="form-width" required>
-                <!------------------Last name input------------------------>
+                <!-- =================== Last name input ================ -->
                 <label for="last_name" class="col-12 label">Last Name<span class="asterisk"> *</span></label>
                 <input type="text" id="last_name" name="lname" class="form-width" required>
-                <!------------------Email input---------------------------->
+                <!-- ===================== Email input =================== -->
                 <label for="email_address" class="col-12 label">Email<span class="asterisk"> *</span></label>
                 <input type="email" id="email_address" name="email" class="form-width" required>
-                <!------------------Country input-------------------------->
+                <!-- =================== Country input ===================== -->
                 <label for="country" class="col-12 label">Country<span class="asterisk"> *</span></label>
                 <select id="country" name="country" class="form-width" required>
                   <option value="Afghanistan">Afghanistan</option>
@@ -357,7 +357,7 @@
                   <option value="Zambia">Zambia</option>
                   <option value="Zimbabwe">Zimbabwe</option>
                 </select>
-                <!--------------------Submit Button-------------------->
+                <!-- ============= Submit Button ================= -->
                 <button type="submit" class="btn btn-danger submit-button">Sign Up!</button>
               </form>
             </div>
@@ -367,7 +367,7 @@
     </div>
   </section>
 
-  <!--------------------Sign Up Form Section (SMALLER SCREENS ONLY)------------------------>
+  <!-- ================ Sign Up Form Section (SMALLER SCREENS ONLY) =================== -->
   <section id="sign-up-phone-only" class="d-custom-none">
     <div class="container-fluid p-0">
       <div class="phone-background sign-up-phone-background">
@@ -375,22 +375,22 @@
           <h3 class="d-custom-none sign-up-text centralize">Sign Up to Our Newsletter to Receive updates on new
             music, shows, merch, etc.</h3>
         </div>
-        <!-------------SIGN UP FORM (smaller screens only)-------------------->
+        <!-- =============== SIGN UP FORM (smaller screens only) =================== -->
         <div class="sign-up-form d-custom-none">
           <!--There is no 'method' attribute currently within the form element, this is because
           it is causing a "405 not allowed" error when submitting the form using method="post" while
           the page is deployed-->
           <form action="thank-you.html" class="form-contents">
-            <!------------------First name input----------------------->
+            <!-- ================= First name input =================== -->
             <label for="first_name" class="col-12 label">First Name<span class="asterisk"> *</span></label>
             <input type="text" id="first_name" name="fname" class="form-width" required>
-            <!------------------Last name input------------------------>
+            <!-- ============== Last name input ==================== -->
             <label for="last_name" class="col-12 label">Last Name<span class="asterisk"> *</span></label>
             <input type="text" id="last_name" name="lname" class="form-width" required>
-            <!------------------Email input---------------------------->
+            <!-- =============== Email input ======================= -->
             <label for="email_address" class="col-12 label">Email<span class="asterisk"> *</span></label>
             <input type="email" id="email_address" name="email" class="form-width" required>
-            <!------------------Country input-------------------------->
+            <!-- ================== Country input ===================== -->
             <label for="country" class="col-12 label">Country<span class="asterisk"> *</span></label>
             <select id="country" name="country" class="form-width" required>
               <option value="Afghanistan">Afghanistan</option>
@@ -649,7 +649,7 @@
     </div>
   </section>
 
-  <!--------------------Footer Section (contains social media links)------------------------->
+  <!-- ================= Footer Section (contains social media links) ================= -->
   <footer>
     <div class="container-fluid p-0">
       <div id="sign-up-social">
@@ -680,7 +680,7 @@
     </div>
   </footer>
 
-  <!---------------------JavaScript CDN links--------------------------->
+  <!-- ================== JavaScript CDN links ======================= -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
