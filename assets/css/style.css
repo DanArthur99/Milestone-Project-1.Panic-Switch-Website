@@ -427,6 +427,7 @@ li {
 .shows-section {
     background-color: #161616;
     min-height: 200px;
+    padding-bottom: 30px;
 }
 
 .show-container {
