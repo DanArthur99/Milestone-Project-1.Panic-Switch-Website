@@ -3,7 +3,7 @@
 
 ![Panic Switch website shown on various websites](assets/images/am-i-responsive-panic-switch-screenshot.jpg)
 
-Deployed Website [Panic Switch](https://danarthur99.github.io/Milestone-Project-1.Panic-Switch-Website/)
+Deployed Website: [Panic Switch](https://danarthur99.github.io/Milestone-Project-1.Panic-Switch-Website/)
 
 This project is a website for our band PANIC SWITCH, a thrash metal band based in Cheltenham, UK.
 
