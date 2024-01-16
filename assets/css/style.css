@@ -486,6 +486,7 @@ form .button-text {
     padding-right: 50px;
     color: white;
     font-family: "Exo 2", sans-serif;
+    font-size: 26px;
     text-transform: uppercase;
     animation-name: fade-in;
     animation-duration: 2s;
