@@ -300,10 +300,9 @@ li {
 .music-video {
     text-align: center;
     display: inline-block;
-    height: 400px;
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-right: 0;
+    padding-right: 12px;
 }
 
 .embedded-video {

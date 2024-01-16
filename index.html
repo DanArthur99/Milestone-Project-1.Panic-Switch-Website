@@ -4,6 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ========= github package from https://github.com/paulirish/lite-youtube-embed | author: paulirish =====-->
+  <link rel="stylesheet" href="assets/css/src/lite-yt-embed.css" />
+  <script src="assets/css/src/lite-yt-embed.js"></script>
+  <!-- ========================================================================= -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
     integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
     crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -21,7 +26,8 @@
       <!-- =================== Navbar Section =================== -->
       <div class="row g-0 justify-content-between nav-container">
         <!--=================== Navbar band logo (LARGE SCREENS ONLY) =============== -->
-        <a href="index.html" aria-label="Panic Switch Logo. To Home Page" class="d-custom-maxwidth-none d-block col-12 col-md-2 logo"></a>
+        <a href="index.html" aria-label="Panic Switch Logo. To Home Page"
+          class="d-custom-maxwidth-none d-block col-12 col-md-2 logo"></a>
         <!-- ============= Navbar togger (FOR SMALLER SCREENS) ============= -->
         <nav class="navbar navbar-expand-md navbar-custom d-custom-none">
           <div class="container-fluid p-0">
@@ -138,8 +144,7 @@
       </div>
       <div class="row">
         <div class="col-12 col-md-8 music-video">
-          <iframe class="embedded-video" src="https://www.youtube.com/embed/jk0TfBpMXEI"
-            title="Panic Switch Lethal Intent Music Video"></iframe>
+          <lite-youtube videoid="jk0TfBpMXEI" params="controls=1&start=0&end=0&modestbranding=2&rel=0&enablejsapi=1"></lite-youtube>
         </div>
         <div class="col-12 col-md-4 music-links">
           <form class="descriptions spotify"
