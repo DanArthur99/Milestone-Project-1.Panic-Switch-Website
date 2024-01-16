@@ -209,6 +209,15 @@ li {
     animation-duration: 3s;
 }
 
+/*--Source: https://stackoverflow.com/questions/25766783/how-to-make-my-image-responsive-width-and-height--
+-----author: Sachithra Dilshan----*/
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*-----*/
+
 .center {
     text-align: center;
 }
@@ -854,6 +863,7 @@ footer {
 /*------Media Queries - Shows.html text and padding size---------------*/
 
 @media (max-width: 350px) {
+
     .upcoming-shows-title,
     .past-shows-title {
         font-size: 30px;
