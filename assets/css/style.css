@@ -15,7 +15,7 @@ header {
     z-index: 2;
 }
 
-h2 {
+h1 {
     font-family: 'Rubik Glitch', fantasy;
     text-transform: uppercase;
     font-size: 45px;
@@ -649,7 +649,7 @@ footer {
         transform: translateY(-50%);
         padding: 10%;
     }
-    
+
     .row .video-description {
         text-align: left;
         padding-left: 80px;
