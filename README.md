@@ -12,7 +12,6 @@ Since our band does not currently have a live website, it was my idea to begin d
 ## CONTENTS
 
 * [User Experience (UX)](#User-Experience)
-  * [Initial Discussion](#Initial-Discussion)
   * [User Stories](#User-Stories)
 
 * [Design](#Design)
