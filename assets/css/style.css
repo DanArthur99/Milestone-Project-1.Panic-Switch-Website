@@ -39,6 +39,11 @@ h1 {
     justify-content: center;
 }
 
+.rubik-upper {
+    font-family: 'Rubik Glitch', fantasy;
+    text-transform: uppercase;
+}
+
 /*---------------------------Nav menu styling---------------------*/
 
 .logo {
