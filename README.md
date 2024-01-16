@@ -60,6 +60,8 @@ The end goal was to have a fully functional (front-end only) and aesthetically p
 
 ## User Experience
 
+### User Stories
+
 ### Design
 
 ## Technologies Used
