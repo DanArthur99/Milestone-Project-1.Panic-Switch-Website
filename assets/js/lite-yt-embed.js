@@ -2,7 +2,9 @@
 
  * This javascript code was not written by me
  * source: https://github.com/paulirish/lite-youtube-embed?tab=readme-ov-file | author: paulirish
-
+ *
+ * License ------ https://www.apache.org/licenses/LICENSE-2.0 
+ * 
  */
 
 /**
