@@ -641,12 +641,20 @@ footer {
         text-align: left;
         margin-left: 100px;
     }
+
     .centralize-sign-up {
         position: absolute;
         top: 50%;
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
         padding: 10%;
+    }
+    
+    .row .video-description {
+        text-align: left;
+        padding-left: 80px;
+        padding-right: 80px;
+        max-width: 720px;
     }
 }
 
