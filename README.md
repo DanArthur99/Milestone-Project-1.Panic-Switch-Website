@@ -56,7 +56,9 @@ Consisting of five members, our style is a mixture of modern heavy metal along w
 
 Since our band does not currently have a live website, it was my idea to begin developing one.
 
-The end goal was to have a fully functional (front-end only) and aesthetically pleasing Webpage that showcases our band, music, as well as good user interaction.
+The end goal was to have a fully functional (front-end) and aesthetically pleasing Webpage that showcases our band, music, as well as good user interaction. This would including appropriate theming and imagery that matches the theme of the band. As well as links and embeds to our our music. 
+
+It was also good idea I thought to add a sign up page that would sign users up with their name, email and country, and in turn would sent emails about upcoming gigs, new music, etc. (This section is not fully functional, as more back-end development is needed. The sign up page at this point exists more as a proof of concept).
 
 ## User Experience
 
