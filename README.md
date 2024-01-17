@@ -56,15 +56,55 @@ Consisting of five members, our style is a mixture of modern heavy metal along w
 
 Since our band does not currently have a live website, it was my idea to begin developing one.
 
-The end goal was to have a fully functional (front-end) and aesthetically pleasing Webpage that showcases our band, music, as well as good user interaction. This would including appropriate theming and imagery that matches the theme of the band. As well as links and embeds to our our music. 
+The end goal was to have a fully functional (front-end) and aesthetically pleasing webpage that showcases our band, music, as well as good user interaction. This would including appropriate theming and imagery that matches the theme of the band, as well as links, both external and embedded, to our our music. 
 
-It was also good idea I thought to add a sign up page that would sign users up with their name, email and country, and in turn would sent emails about upcoming gigs, new music, etc. (This section is not fully functional, as more back-end development is needed. The sign up page at this point exists more as a proof of concept).
+I also thought it would be a good idea to add a sign up page that would sign users up to a (as of yet) fictional newsletter with their name, email and country. In turn, this would send them emails about upcoming gigs, new music, etc. (Please not that only the front end aspect of this section is functional. The sign up page at this point exists more as a proof of concept).
 
-## User Experience
+## User Experience (UX)
 
 ### User Stories
 
-### Design
+#### Overall Client Goals
+
+* To have a website that is viewable on different screen sizes
+* To have a website theme that is aesthetically eye catching and matches the theme of the band
+* To have a website that is clearly and easily navigatable
+
+#### First Time Visit Goals
+
+* To have access to the bands current and latest music
+* To have access to the upcoming gig schedule
+* To be able to access the bands social media accounts
+
+#### Returning Visitor Goals
+
+* To be able to view the latest updates regarding the band
+* To be able to view and book tickets to the bands upcoming shows
+* To be able to sign up to an email list keeps me up to with the latest releases, gigs, or merchandise.
+
+## Design
+
+### Wireframes
+
+#### Typography
+
+The Website primarily uses 2 different fonts throughout. Both of which were obtained from Google Fonts. These fonts were:
+
+* Rubik Glitch ('fantasy')
+* Exo 2 ('sans-serif')
+
+"Rubik Glitch" is a much more decorative font, so this was typically used for large headings, navigation links, and other large text.
+
+"Exo 2" is a simpler font and is a bit easier to read, so this was generally used for larger paragraphs of text, such as the text on the 'About' page, and descriptive labels.
+
+#### Colour Palette
+
+The Colour Palette is predominantly made of blacks, greys, and whites, with a few exceptions:
+
+![Colour Palette](assets/images/color-palette.png)
+
+#### Images
+
 
 ## Technologies Used
 
