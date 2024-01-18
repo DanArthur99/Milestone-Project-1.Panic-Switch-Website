@@ -99,10 +99,10 @@ The Website primarily uses 2 different fonts throughout. Both of which were obta
 
 #### Colour Palette
 
-The Colour Palette is predominantly made of blacks, greys, and whites, with a few exceptions:
+Keeping in line with the theme of the band, the site uses a largely "colourless" palette , consisting predominantly of blacks, greys, and whites. There are a few exceptions however, such as the navbar elements and the footer elements, which use shades of blue and green, albiet slightly washed shades.
 
-![Colour Palette](assets/images/color-palette.png)
-
+![Colour Palette 1](assets/images/color-palette.png)
+![Colour Palette 2](assets/images/color-palette-2.png)
 #### Images
 
 
@@ -114,6 +114,10 @@ The programming languages used for this project were:
 
 * HTML5
 * CSS3
+
+### Frameworks 
+
+* Bootstrap
 
 ## Deployment & Local Development
 
