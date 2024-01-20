@@ -149,11 +149,16 @@ The programming languages used for this project were:
 
 ### Frameworks & Other Libraries used
 
+* Git - Version Control
+* Github - To save and store changes to the project
 * [Bootstrap (v5.3.2)](https://getbootstrap.com/) - CSS and JS framework used. Used mainly for the navbar, grid structure, and button styling
 * [Google Fonts](https://fonts.google.com/)- Imported selected fonts into external stylesheet, namely "Rubik Glitch" and "Exo 2"
 * [Figma](https://www.figma.com/) - To create wireframes
 * [Favicon.io](https://favicon.io/) - To create favicon icons
 * [Am I Responsive?](https://ui.dev/amiresponsive) - Used to create the multi-screen image you see at the start of this document.
+* [CloudConvert](https://cloudconvert.com/webp-converter) - To convert JPEG images into WEBP format
+* [Compress-Or-Die] (https://compress-or-die.com/webp) - Image File Compressor
+
 
 ## Deployment & Local Development
 
