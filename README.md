@@ -16,41 +16,35 @@ Consisting of five members, our style is a mixture of modern heavy metal along w
 * [User Experience (UX)](#User-Experience)
   * [User Stories](#User-Stories)
 
-* [Design](#Design)
-  * [Colour Scheme](#Colour-Scheme)
-  * [Typography](#Typography)
-  * [Imagery](#Imagery)
-  * [Wireframes](#Wireframes)
-  * [Features](#Features)
-  * [Accessibility](#Accessibility)
+  * [Design](#Design)
+    * [Colour Scheme](#Colour-Scheme)
+    * [Typography](#Typography)
+    * [Imagery](#Imagery)
+    * [Wireframes](#Wireframes)
+    * [Features](#Features)
+    * [Accessibility](#Accessibility)
 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
-  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+  * [Frameworks & Other Libraries/Programs Used](#Frameworks-&-Other-Libraries/Programs-Used)
 
 * [Deployment & Local Development](#Deployment-&-Local-Development)
   * [Deployment](#Deployment)
   * [Local Development](#Local-Development)
-    * [How to Fork](#How-to-Fork)
-    * [How to Clone](#How-to-Clone)
+    * [Forking a Repository](#Forking-a-Repository)
+    * [Cloning a Repository](#Cloning-a-Repository)
 
 * [Testing](#Testing)
   * [W3C Validator](#W3C-Validator)
-  * [Solved Bugs](#Solved-Bugs)
-  * [Known Bugs](#Known-Bugs)
-  * [Testing User Stories](#Testing-User-Stories)
   * [Lighthouse Testing](#Lighthouse-Testing)
-    * [Index Page](#Index-Page)
-    * [About Page](#About-Page)
-    * [Shows Page](#Shows-Page)
-    * [Sign-Up Page](#Sign-Up-Page)
-    * [Thank You Page](#Thank-You-Page)
-  * [Full Testing](#Full-Testing)
+  * [Bugs](#Bugs)
+    * [Solved Bugs](#Solved-Bugs)
+    * [Known Bugs](#Known-Bugs)
+  * [Testing User Stories](#Testing-User-Stories)
+  * [Other Testing](#Other-Testing)
   
 * [Credits](#Credits)
-  * [Code Used](#Code-Used)
-  * [Content](#Content)
-  * [Media](#Media)
+  * [Code](#Code)
 
 ## Project Goal
 
@@ -147,7 +141,7 @@ The programming languages used for this project were:
 * CSS3
 * JavaScript (used but not written by myself (see Credits section))
 
-#### Frameworks & Other Libraries/Programs used
+#### Frameworks & Other Libraries/Programs Used
 
 * Git - Version Control
 * Github - To save and store changes to the project
@@ -227,6 +221,10 @@ To clone the Panic Switch Website repository:
 
 #### Known Bugs
 
+### Testing User Stories
+
+### Other Testing
+
 ## Credits
 
 ### Code
@@ -238,6 +236,5 @@ To clone the Panic Switch Website repository:
 * [Country list](https://gist.github.com/danrovito/977bcb97c9c2dfd3398a) - author: danrovito
   * (This code was copied into the sign-up form, and was used to display the country dropdown list)
 
-### Content
 
 
