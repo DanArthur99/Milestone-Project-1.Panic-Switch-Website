@@ -82,44 +82,44 @@ I also thought it would be a good idea to add a sign up page that would sign use
 * To be able to view and book tickets to the bands upcoming shows
 * To be able to sign up to an email list keeps me up to with the latest releases, gigs, or merchandise.
 
-## Design
+### Design
 
-### Wireframes
+#### Wireframes
 
 The wireframes for this site were created using [Figma](https://www.figma.com/)
 
-#### Home Page Wireframes
+##### Home Page Wireframes
 
-##### Desktop
+###### Desktop
 
 ![Home Page Wireframe Desktop](docs/wireframes/home-screen-wireframe-desktop.png)
 
-##### Mobile
+###### Mobile
 
 ![Home Page Wireframe Mobile](docs/wireframes/home-screen-wireframe-mobile.png)
 
-#### Shows Page Wireframes
+##### Shows Page Wireframes
 
-##### Desktop
+###### Desktop
 
 ![Shows Page Wireframe Desktop](docs/wireframes/shows-page-wireframe-desktop.png)
 
-##### Mobile
+###### Mobile
 
 ![Shows Page Wireframe Mobile](docs/wireframes/shows-page-wireframe-mobile.png)
 
-#### Sign Up Page Wireframes
+##### Sign Up Page Wireframes
 
-##### Desktop
+###### Desktop
 
 ![Sign Up Page Wireframe Desktop](docs/wireframes/sign-up-wireframe-desktop.png)
 
-##### Mobile
+###### Mobile
 
 ![Sign Up Wireframe Mobile](docs/wireframes/sign-up-wireframe-mobile.png)
 
 
-### Typography
+#### Typography
 
 The Website primarily uses 2 different fonts throughout. Both of which were obtained from Google Fonts. These fonts were:
 
@@ -130,16 +130,16 @@ The Website primarily uses 2 different fonts throughout. Both of which were obta
 
 "Exo 2" is a simpler font and is a bit easier to read, so this was generally used for larger paragraphs of text, such as the text on the 'About' page, and descriptive labels.
 
-### Colour Palette
+#### Colour Palette
 
 Keeping in line with the theme of the band, the site uses a largely "colourless" palette , consisting predominantly of blacks, greys, and whites. There are a few exceptions however, such as the navbar elements and the footer elements, which use shades of blue and green, albiet slightly washed shades.
 
 ![Colour Palette 1](docs/readme-images/color-palette.png)
 ![Colour Palette 2](docs/readme-images/color-palette-2.png)
 
-## Technologies Used
+### Technologies Used
 
-### Languages
+#### Languages
 
 The programming languages used for this project were:
 
@@ -147,7 +147,7 @@ The programming languages used for this project were:
 * CSS3
 * JavaScript (used but not written by myself (see Credits section))
 
-### Frameworks & Other Libraries used
+#### Frameworks & Other Libraries/Programs used
 
 * Git - Version Control
 * Github - To save and store changes to the project
@@ -158,9 +158,18 @@ The programming languages used for this project were:
 * [Am I Responsive?](https://ui.dev/amiresponsive) - Used to create the multi-screen image you see at the start of this document.
 * [CloudConvert](https://cloudconvert.com/webp-converter) - To convert JPEG images into WEBP format
 * [Compress-Or-Die] (https://compress-or-die.com/webp) - Image File Compressor
+* Chrome Developer Tools - Used for testing features and responsiveness
+  * Lighthouse - Extension of dev tools used. Gives a score on site performance, accessibiliity, search engine optimization, and best practices in code.
 
+### Features
+
+### Accessibility
 
 ## Deployment & Local Development
+
+### Deployment
+
+### Local Development
 
 ## Testing
 
