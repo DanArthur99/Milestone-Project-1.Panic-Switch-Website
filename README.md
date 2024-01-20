@@ -26,7 +26,7 @@ Consisting of five members, our style is a mixture of modern heavy metal along w
 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
-  * [Frameworks & Other Libraries/Programs Used](#Frameworks--Other-Libraries/Programs-Used)
+  * [Frameworks & Other Libraries/Programs Used](#Frameworks--Other-LibrariesPrograms-Used)
 
 * [Deployment & Local Development](#Deployment--Local-Development)
   * [Deployment](#Deployment)
