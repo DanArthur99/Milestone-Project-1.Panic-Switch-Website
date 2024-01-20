@@ -90,17 +90,32 @@ The wireframes for this site were created using [Figma](https://www.figma.com/)
 
 #### Home Page Wireframes
 
+##### Desktop
+
 ![Home Page Wireframe Desktop](docs/wireframes/home-screen-wireframe-desktop.png)
+
+##### Mobile
+
 ![Home Page Wireframe Mobile](docs/wireframes/home-screen-wireframe-mobile.png)
 
 #### Shows Page Wireframes
 
+##### Desktop
+
 ![Shows Page Wireframe Desktop](docs/wireframes/shows-page-wireframe-desktop.png)
+
+##### Mobile
+
 ![Shows Page Wireframe Mobile](docs/wireframes/shows-page-wireframe-mobile.png)
 
 #### Sign Up Page Wireframes
 
+##### Desktop
+
 ![Sign Up Page Wireframe Desktop](docs/wireframes/sign-up-wireframe-desktop.png)
+
+##### Mobile
+
 ![Sign Up Wireframe Mobile](docs/wireframes/sign-up-wireframe-mobile.png)
 
 
@@ -121,8 +136,6 @@ Keeping in line with the theme of the band, the site uses a largely "colourless"
 
 ![Colour Palette 1](docs/readme-images/color-palette.png)
 ![Colour Palette 2](docs/readme-images/color-palette-2.png)
-#### Images
-
 
 ## Technologies Used
 
@@ -132,10 +145,15 @@ The programming languages used for this project were:
 
 * HTML5
 * CSS3
+* JavaScript (used but not written by myself (see Credits section))
 
-### Frameworks 
+### Frameworks & Other Libraries used
 
-* Bootstrap
+* [Bootstrap (v5.3.2)](https://getbootstrap.com/) - CSS and JS framework used. Used mainly for the navbar, grid structure, and button styling
+* [Google Fonts](https://fonts.google.com/)- Imported selected fonts into external stylesheet, namely "Rubik Glitch" and "Exo 2"
+* [Figma](https://www.figma.com/) - To create wireframes
+* [Favicon.io](https://favicon.io/) - To create favicon icons
+* [Am I Responsive?](https://ui.dev/amiresponsive) - Used to create the multi-screen image you see at the start of this document.
 
 ## Deployment & Local Development
 
