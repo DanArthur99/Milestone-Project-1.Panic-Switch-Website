@@ -86,7 +86,25 @@ I also thought it would be a good idea to add a sign up page that would sign use
 
 ### Wireframes
 
-#### Typography
+The wireframes for this site were created using [Figma](https://www.figma.com/)
+
+#### Home Page Wireframes
+
+![Home Page Wireframe Desktop](docs/wireframes/home-screen-wireframe-desktop.png)
+![Home Page Wireframe Mobile](docs/wireframes/home-screen-wireframe-mobile.png)
+
+#### Shows Page Wireframes
+
+![Shows Page Wireframe Desktop](docs/wireframes/shows-page-wireframe-desktop.png)
+![Shows Page Wireframe Mobile](docs/wireframes/shows-page-wireframe-mobile.png)
+
+#### Sign Up Page Wireframes
+
+![Sign Up Page Wireframe Desktop](docs/wireframes/sign-up-wireframe-desktop.png)
+![Sign Up Wireframe Mobile](docs/wireframes/sign-up-wireframe-mobile.png)
+
+
+### Typography
 
 The Website primarily uses 2 different fonts throughout. Both of which were obtained from Google Fonts. These fonts were:
 
@@ -97,7 +115,7 @@ The Website primarily uses 2 different fonts throughout. Both of which were obta
 
 "Exo 2" is a simpler font and is a bit easier to read, so this was generally used for larger paragraphs of text, such as the text on the 'About' page, and descriptive labels.
 
-#### Colour Palette
+### Colour Palette
 
 Keeping in line with the theme of the band, the site uses a largely "colourless" palette , consisting predominantly of blacks, greys, and whites. There are a few exceptions however, such as the navbar elements and the footer elements, which use shades of blue and green, albiet slightly washed shades.
 
