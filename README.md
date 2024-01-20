@@ -169,15 +169,74 @@ The programming languages used for this project were:
 
 ### Deployment
 
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+  1. Log in (or sign up) to Github.
+  2. Find the repository for this project, DanArthur99 / Milestone-Project-1.Panic-Switch-Website.
+  3. Click on the Settings link.
+  4. Click on the Pages link in the left hand side navigation bar.
+  5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select   folder menu.
+  6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
 ### Local Development
+
+#### Forking a Repository
+
+To fork the Panic Switch Website repository:
+
+  1. Log in (or sign up) to Github.
+  2. Go to the repository for this project, DanArthur99/Milestone-Project-1.Panic-Switch-Website.
+  3. Click the Fork button in the top right corner.
+
+#### Cloning a Repository
+
+To clone the Panic Switch Website repository:
+
+  1. Log in (or sign up) to GitHub.
+  2. Go to the repository for this project, DanArthur99 / Milestone-Project-1.Panic-Switch-Website.
+  3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+  4. Open the terminal in your IDE and set your working directory to the location you want to use for the cloned repository.
+  5. Type 'git clone' into the terminal window, and paste the link you copied in step 3, then press enter.
+
 
 ## Testing
 
+### W3C Validator
+
+* Home Page
+* About Page
+* Shows Page
+* Sign Up Page
+* Thank You Page
+* 404 Page
+* Stylesheet
+
+### Lighthouse Testing
+
+* Home Page
+* About Page
+* Shows Page
+* Sign Up Page
+* Thank You Page
+* 404 Page
+* Stylesheet
+
+### Bugs
+
+#### Solved Bugs
+
+#### Known Bugs
+
 ## Credits
 
-### Content
-
 ### Code
+
+* [Lite YouTube Embed repository](https://github.com/paulirish/lite-youtube-embed?tab=readme-ov-file) - author: paulirish
+  * (This repository was used to reduce the performance issues I had when loading in the iframe on the home. The lite-youtube-embed.css and lite-youtube-embed.js files have been copied into my github repository) 
+* [Image responsivity fix](https://stackoverflow.com/questions/25766783/how-to-make-my-image-responsive-width-and-height) - author: JasonK
+  * (This code (accepted answer) was used to fix the responsivity issue on the cover art image load in)
+* [Country list](https://gist.github.com/danrovito/977bcb97c9c2dfd3398a) - author: danrovito
+  * (This code was copied into the sign-up form, and was used to display the country dropdown list)
 
 ### Content
 
