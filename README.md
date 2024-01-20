@@ -1,7 +1,7 @@
 
 # Panic Switch Band Website
 
-![Panic Switch website shown on various websites](assets/images/am-i-responsive-panic-switch-screenshot.jpg)
+![Panic Switch website shown on various websites](docs/readme-images/am-i-responsive-panic-switch-screenshot.jpg)
 
 Deployed Website: [Panic Switch](https://danarthur99.github.io/Milestone-Project-1.Panic-Switch-Website/)
 
@@ -101,8 +101,8 @@ The Website primarily uses 2 different fonts throughout. Both of which were obta
 
 Keeping in line with the theme of the band, the site uses a largely "colourless" palette , consisting predominantly of blacks, greys, and whites. There are a few exceptions however, such as the navbar elements and the footer elements, which use shades of blue and green, albiet slightly washed shades.
 
-![Colour Palette 1](assets/images/color-palette.png)
-![Colour Palette 2](assets/images/color-palette-2.png)
+![Colour Palette 1](docs/readme-images/color-palette.png)
+![Colour Palette 2](docs/readme-images/color-palette-2.png)
 #### Images
 
 
