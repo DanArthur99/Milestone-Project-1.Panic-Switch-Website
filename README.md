@@ -157,7 +157,7 @@ The programming languages used for this project were:
 * [Favicon.io](https://favicon.io/) - To create favicon icons
 * [Am I Responsive?](https://ui.dev/amiresponsive) - Used to create the multi-screen image you see at the start of this document.
 * [CloudConvert](https://cloudconvert.com/webp-converter) - To convert JPEG images into WEBP format
-* [Compress-Or-Die] (https://compress-or-die.com/webp) - Image File Compressor
+* [Compress-Or-Die](https://compress-or-die.com/webp) - Image File Compressor
 * Chrome Developer Tools - Used for testing features and responsiveness
   * Lighthouse - Extension of dev tools used. Gives a score on site performance, accessibiliity, search engine optimization, and best practices in code.
 
