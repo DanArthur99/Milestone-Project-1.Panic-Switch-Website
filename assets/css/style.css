@@ -635,6 +635,22 @@ footer {
 
 /*------------Media Queries-------------*/
 
+@media (min-width: 1350px) {
+    .music-video {
+        padding-left: 200px;
+    }
+
+    .music-links {
+        padding-right: 100px;
+    }
+
+    #music .video-description {
+        max-width: 900px;
+        padding-left: 300px;
+        padding-right: 0;
+    }
+}
+
 @media screen and (max-width: 1290px) {
     .menuitem a {
         font-size: 0.9rem;
