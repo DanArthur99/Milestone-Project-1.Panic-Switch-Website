@@ -13,7 +13,7 @@ Consisting of five members, our style is a mixture of modern heavy metal along w
 
 * [Project Goal](#Project-Goal)
 
-* [User Experience (UX)](#User-Experience)
+* [User Experience (UX)](#User-Experience-(UX))
   * [User Stories](#User-Stories)
 
   * [Design](#Design)
