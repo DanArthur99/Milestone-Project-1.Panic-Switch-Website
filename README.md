@@ -208,12 +208,17 @@ To clone the Panic Switch Website repository:
 ### Lighthouse Testing
 
 * Home Page
+![Home Page Lighthouse Test](assets/docs/testing/index-page-lighthouse-test.png)
 * About Page
+![About Page Lighthouse Test](assets/docs/testing/about-page-lighthouse-test.png)
 * Shows Page
+![Shows Page Lighthouse Test](assets/docs/testing/shows-page-lighthouse-test.png)
 * Sign Up Page
+![Sign Up Page Lighthouse Test](assets/docs/testing/sign-up-lighthouse-test.png)
 * Thank You Page
+![Thank You Page Lighthouse Test](assets/docs/testing/thank-you-lighthouse-test.png)
 * 404 Page
-* Stylesheet
+![404 Page Lighthouse Test](assets/docs/testing/404-page-lighthouse-test.png)
 
 ### Bugs
 
