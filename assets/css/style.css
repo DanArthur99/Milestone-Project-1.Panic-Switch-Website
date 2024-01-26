@@ -180,7 +180,7 @@ li {
 .background-image {
     height: 800px;
     width: 100%;
-    background-color: #383737;
+    background-color: #000;
     background-size: cover;
     background-image: url('../images/background-image.webp');
     background-position: center;
@@ -253,7 +253,7 @@ img {
 #thank-you-text-section,
 #thank-you-phone-only,
 #shows-title-bar {
-    background-color: #383737;
+    background-color: #000;
 }
 
 /*-----------Music Section Styling--------------*/
@@ -359,7 +359,7 @@ form .button-text {
 .about-page-image {
     height: 800px;
     width: 100%;
-    background-color: #383737;
+    background-color: #000;
     background-image: url('../images/about-page-image.webp');
     background-size: cover;
     background-position: center;
@@ -407,7 +407,7 @@ form .button-text {
 .shows-page-image {
     height: 500px;
     width: 100%;
-    background-color: #383737;
+    background-color: #000;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../images/shows-image.webp');
