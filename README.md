@@ -225,7 +225,7 @@ To clone the Panic Switch Website repository:
 
 #### Stylesheet
 
-![Stylesheet W3C Validator](docs/testing/stylesheet-w3c-validator.png)
+![Stylesheet W3C Validator](docs/testing/stylesheet-w3c-validation.png)
 
 ### Lighthouse Testing
 
