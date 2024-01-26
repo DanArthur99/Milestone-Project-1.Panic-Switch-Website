@@ -244,7 +244,7 @@ To clone the Panic Switch Website repository:
 
 ![Shows Page Lighthouse Test](docs/testing/shows-page-lighthouse-test.png)
 
-* The performance for the shows page is scoring slightly lower. The largest contentful paint element is in part to blame, which takes longer to render due to the fade-in animation.
+* The performance for the shows page is scoring slightly lower. The largest contentful paint element is in part to blame, which takes longer to load in due to the fade-in animation.
 
 ![Shows Page Largest Contentful Paint](docs/testing/shows-largest-content-paint.png)
 
@@ -316,6 +316,26 @@ To clone the Panic Switch Website repository:
 ### Bugs
 
 #### Solved Bugs
+
+* One bug I came across was that the navbar would wrap strangely when the screen was shrunk down below a certain size, but before it switched to drop down menu. One of the big things that would happen is the logo would wrap above the screen so that it was invisible.
+
+To get around this, I programmed the dropdown nav menu to appear at my own custom breakpoint, rather than the bootstrap provided once. This breakpoint was slightly larger than the tradition sm breakpoint, being 631px. This meant that the nav menu would turn into a dropdown menu before any screen wrap issue could occur
+
+These custom breakpoints were also used for other elements, and were implemented using the "d-custom-none" and "d-custom-maxwidth-none" class names.
+
+![d-custom-none](docs/readme-images/d-custom-none.png)
+
+![d-custom-maxwidth-none](docs/readme-images/d-custom-maxwidth-none.png)
+
+![navbar d-custom-none](docs/readme-images/nav-d-custom-none.png)
+
+* Another bug I encountered was that the text for the nav elements would go outside the lines of their containers when the screen shrunk to a certain size. 
+
+To fix this, I created a couple of extra media queries that would cause the font-size of the text to reduce at these specific breakpoints.
+
+![Navbar Text Breakpoints](docs/readme-images/nav-text-breakpoints.png)
+
+
 
 #### Known Bugs
 
