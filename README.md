@@ -37,6 +37,7 @@ Consisting of five members, our style is a mixture of modern heavy metal along w
 * [Testing](#Testing)
   * [W3C Validator](#W3C-Validator)
   * [Lighthouse Testing](#Lighthouse-Testing)
+  * [Wave Accessibiliy Testing](#Wave-Accessibility-TSesting)
   * [Bugs](#Bugs)
     * [Solved Bugs](#Solved-Bugs)
     * [Known Bugs](#Known-Bugs)
