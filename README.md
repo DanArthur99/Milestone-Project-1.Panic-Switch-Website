@@ -240,11 +240,13 @@ To clone the Panic Switch Website repository:
 
 ![About Page Lighthouse Test](docs/testing/about-page-lighthouse-test.png)
 
+* The performance is showing slightly below the rest of the criteria due to the largest contentful paint element, which is the text box that uses a fade-in animation keyframe.
+
 #### Shows Page
 
 ![Shows Page Lighthouse Test](docs/testing/shows-page-lighthouse-test.png)
 
-* The performance for the shows page is scoring slightly lower. The largest contentful paint element is in part to blame, wh
+* The performance for the shows page is scoring slightly lower. The largest contentful paint element is in part to blame, which takes longer to render due to the fade-in animation.
 
 ![Shows Page Largest Contentful Paint](docs/testing/shows-largest-content-paint.png)
 
