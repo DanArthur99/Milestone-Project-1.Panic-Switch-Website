@@ -199,42 +199,68 @@ To clone the Panic Switch Website repository:
 
 ### W3C Validator
 
-* Home Page
+#### Home Page
+
 ![Home Page W3C Validator](docs/testing/index-page-w3c-validation)
-* About Page
+
+#### About Page
+
 ![About Page W3C Validator](docs/testing/about-page-w3c-validation)
-* Shows Page
+
+#### Shows Page
+
 ![Shows Page W3C Validator](docs/testing/shows-page-w3c-validation)
-* Sign Up Page
+
+#### Sign Up Page
+
 ![Sign Up Page W3C Validator](docs/testing/sign-up-w3c-validation)
-* Thank You Page
+
+#### Thank You Page
+
 ![Thank You Page W3C Validator](docs/testing/thank-you-w3c-validation)
-* 404 Page
+
+#### 404 Page
+
 ![404 Page W3C Validator](docs/testing/404-page-w3c-validation)
-* Stylesheet
+
+#### Stylesheet
+
 ![Stylesheet W3C Validator](docs/testing/stylesheet-w3c-validation)
 
 ### Lighthouse Testing
 
-* Home Page
+#### Home Page
+
 ![Home Page Lighthouse Test](docs/testing/index-page-lighthouse-test.png)
-  * The main issue I am getting from the lighthouse test is performance issues, which is in part due to the embedded youtube video (iframe) that has to load in, as well the numerous animations on the page. When I originally tested the page on the lighthouse test, I was getting scores in the 30s. To fix this issue, I used code from a repository called Lite-YouTube-Embed, written by paulirish ([see Credits section](#Credits)), which allows the page to 'lazy-load' the embedded youtube video, and only loads in the iframe when the 'facade' is clicked.
-  * Other issues I was getting were due to image file sizes. In the end, I ended up converting all jpg images into webp format, then further compressing them so that the file sizes were not too big.
-* About Page
+
+* The main issue I am getting from the lighthouse test is performance issues, which is in part due to the embedded youtube video (iframe) that has to load in, as well the numerous animations on the page. When I originally tested the page on the lighthouse test, I was getting scores in the 30s. To fix this issue, I used code from a repository called Lite-YouTube-Embed, written by paulirish ([see Credits section](#Credits)), which allows the page to 'lazy-load' the embedded youtube video, and only loads in the iframe when the 'facade' is clicked.
+* Other issues I was getting were due to image file sizes. In the end, I ended up converting all jpg images into webp format, then further compressing them so that the file sizes were not too big.
+
+#### About Page
+
 ![About Page Lighthouse Test](docs/testing/about-page-lighthouse-test.png)
-* Shows Page
+
+#### Shows Page
+
 ![Shows Page Lighthouse Test](docs/testing/shows-page-lighthouse-test.png)
-* Sign Up Page
+
+#### Sign Up Page
+
 ![Sign Up Page Lighthouse Test](docs/testing/sign-up-lighthouse-test.png)
-* Thank You Page
+
+#### Thank You Page
+
 ![Thank You Page Lighthouse Test](docs/testing/thank-you-lighthouse-test.png)
-  * The only reason the best accessibility section is scoring lower is because of the meta refresh redirect tag. This is intentional, as I wanted the user to be redirected to the homepage once 'signing up.'
-* 404 Page
+
+* The only reason the best accessibility section is scoring lower is because of the meta refresh redirect tag. This is intentional, as I wanted the user to be redirected to the homepage once 'signing up.'
+
+#### 404 Page
+
 ![404 Page Lighthouse Test](docs/testing/404-page-lighthouse-test.png)
 
 ### Wave Accessibility Testing
 
-* Home Page
+#### Home Page
 
 ![Home Page Wave Test](docs/testing/index-page-wave-accessibility.png)
 
@@ -242,7 +268,7 @@ To clone the Panic Switch Website repository:
 
 ![Redundant Link](docs/testing/redundant-link-image.png)
 
-* About Page
+#### About Page
 
 ![About Page Wave Test](docs/testing/about-page-wave-accessibility.png)
 
@@ -250,7 +276,7 @@ To clone the Panic Switch Website repository:
 
 ![Redundant Links](docs/testing/two-redundant-links-image.png)
 
-* Shows Page
+#### Shows Page
 
 ![Shows Page Wave Test](docs/testing/shows-page-wave-accessibility.png)
 
@@ -258,7 +284,7 @@ To clone the Panic Switch Website repository:
 
 ![Redundant Links](docs/testing/two-redundant-links-image.png)
 
-* Sign Up Page
+#### Sign Up Page
 
 ![Sign Up Page Wave Test](docs/testing/sign-up-wave-accessibility.png)
 
@@ -266,14 +292,14 @@ To clone the Panic Switch Website repository:
 
 ![Redundant Links](docs/testing/two-redundant-links-image.png)
 
-* Thank You Page
+#### Thank You Page
 
 ![Thank You Page Wave Test](docs/testing/thank-you-wave-accessibility.png)
   * As with the lighthouse testing, the only reason an error is occuring is because of the meta refresh redirect tag, which is an intentional design choice of mine, as I wanted the user to be redirected to the home page.
 
 ![Refresh Wave Error](docs/testing/refresh-wave-error.png)
 
-* 404 Page
+#### 404 Page
 
 ![404 Page Wave Test](docs/testing/404-page-wave-accessibility.png)
 
