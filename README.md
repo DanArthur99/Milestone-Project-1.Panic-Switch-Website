@@ -333,7 +333,7 @@ To clone the Panic Switch Website repository:
 
   To get around this, I programmed the dropdown nav menu to appear at my own custom breakpoint, rather than the bootstrap provided once. This breakpoint was slightly larger than the tradition sm breakpoint, being 631px. This meant that the nav menu would turn into a dropdown menu before any screen wrap issue could occur
 
-These custom breakpoints were also used for other elements, and were implemented using the "d-custom-none" and "d-custom-maxwidth-none" class names.
+  These custom breakpoints were also used for other elements, and were implemented using the "d-custom-none" and "d-custom-maxwidth-none" class names.
 
 ![d-custom-none](docs/readme-images/d-custom-none.png)
 
