@@ -225,7 +225,7 @@ To clone the Panic Switch Website repository:
 
 #### Stylesheet
 
-![Stylesheet W3C Validator](docs/testing/stylesheet-w3c-validation.png)
+![Stylesheet W3C Validator](docs/testing/stylesheet-w3c-validator.png)
 
 ### Lighthouse Testing
 
@@ -244,6 +244,10 @@ To clone the Panic Switch Website repository:
 
 ![Shows Page Lighthouse Test](docs/testing/shows-page-lighthouse-test.png)
 
+* The performance for the shows page is scoring slightly lower. The largest contentful paint element is in part to blame, wh
+
+![Shows Page Largest Contentful Paint](docs/testing/shows-largest-content-paint.png)
+
 #### Sign Up Page
 
 ![Sign Up Page Lighthouse Test](docs/testing/sign-up-lighthouse-test.png)
@@ -253,6 +257,8 @@ To clone the Panic Switch Website repository:
 ![Thank You Page Lighthouse Test](docs/testing/thank-you-lighthouse-test.png)
 
 * The only reason the best accessibility section is scoring lower is because of the meta refresh redirect tag. This is intentional, as I wanted the user to be redirected to the homepage once 'signing up.'
+
+![Thank You Page Lighthouse Accessibility Score](docs/testing/thank-you-lighthouse-accessibility.png)
 
 #### 404 Page
 
