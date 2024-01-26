@@ -146,19 +146,31 @@ The programming languages used for this project were:
 
 * Git - Version Control
 * Github - To save and store changes to the project
-* [Bootstrap (v5.3.2)](https://getbootstrap.com/) - CSS and JS framework used. Used mainly for the navbar, grid structure, and button styling
-* [Google Fonts](https://fonts.google.com/)- Imported selected fonts into external stylesheet, namely "Rubik Glitch" and "Exo 2"
-* [Figma](https://www.figma.com/) - To create wireframes
-* [Favicon.io](https://favicon.io/) - To create favicon icons
+* [Bootstrap (v5.3.2)](https://getbootstrap.com/) - CSS and JS framework used. Used mainly for the navbar, grid structure, and button styling.
+* [Google Fonts](https://fonts.google.com/)- Imported selected fonts into external stylesheet, namely "Rubik Glitch" and "Exo 2."
+* [Figma](https://www.figma.com/) - Used to create the wireframes.
+* [Coolors] (https://coolors.co/) - Used to create the colour palette image.
+* [Favicon.io](https://favicon.io/) - To create favicon icons.
 * [Am I Responsive?](https://ui.dev/amiresponsive) - Used to create the multi-screen image you see at the start of this document.
-* [CloudConvert](https://cloudconvert.com/webp-converter) - To convert JPEG images into WEBP format
-* [Compress-Or-Die](https://compress-or-die.com/webp) - Image File Compressor
-* Chrome Developer Tools - Used for testing features and responsiveness
+* [CloudConvert](https://cloudconvert.com/webp-converter) - To convert JPEG images into WEBP format.
+* [Compress-Or-Die](https://compress-or-die.com/webp) - Image File Compressor.
+* Chrome Developer Tools - Used for testing features and responsiveness.
   * Lighthouse - Extension of dev tools used. Gives a score on site performance, accessibiliity, search engine optimization, and best practices in code.
+* [W3C Markup Validation Service](https://validator.w3.org/) - Used for testing HTML validation.
+* [w3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used for testing CSS validation.
+* [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/extension/) - Used for testing webpage accessibility. 
 
 ### Features
 
+
+
 ### Accessibility
+
+* All applicable features and element have the necessary aria-labels and alt attributes, these include the img element on the index page, the social media icons, band logo, and other textless buttons such as the spotify and amazon buttons. This is so that it is easily accessibile for people using screen readers.
+
+* Semantic HTML has been used, i.e. the use of header, section, and footer, as well as nav elements, and correctly ordered and nested heading tags
+
+* The color contrast is sufficient across the whole site, and text is easy to read and interpret.
 
 ## Deployment & Local Development
 
@@ -166,7 +178,7 @@ The programming languages used for this project were:
 
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
-  1. Log in (or sign up) to Github.
+  1. Log in or Sign Up to Github.
   2. Find the repository for this project, DanArthur99 / Milestone-Project-1.Panic-Switch-Website.
   3. Click on the Settings link.
   4. Click on the Pages link in the left hand side navigation bar.
@@ -179,7 +191,7 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 To fork the Panic Switch Website repository:
 
-  1. Log in (or sign up) to Github.
+  1. Log in or Sign Up to Github.
   2. Go to the repository for this project, DanArthur99 / Milestone-Project-1.Panic-Switch-Website.
   3. Click the Fork button in the top right corner.
 
@@ -335,7 +347,7 @@ To fix this, I created a couple of extra media queries that would cause the font
 
 ![Navbar Text Breakpoints](docs/readme-images/nav-text-breakpoints.png)
 
-
+* One bug I encountered when the site was deployed was that a 405 method not allowed error would occur when attempting to submit the form, rather than taking me to the intended thank-you.html. To counteract this, I removed the method="post" attribute from the form element, and kept the action attribute value as thank-you.html, which then allowed me to submit the form and take the user to the thank you page without any issues.
 
 #### Known Bugs
 
