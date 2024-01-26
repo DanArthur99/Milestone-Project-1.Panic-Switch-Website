@@ -201,31 +201,31 @@ To clone the Panic Switch Website repository:
 
 #### Home Page
 
-![Home Page W3C Validator](docs/testing/index-page-w3c-validation)
+![Home Page W3C Validator](docs/testing/index-page-w3c-validation.png)
 
 #### About Page
 
-![About Page W3C Validator](docs/testing/about-page-w3c-validation)
+![About Page W3C Validator](docs/testing/about-page-w3c-validation.png)
 
 #### Shows Page
 
-![Shows Page W3C Validator](docs/testing/shows-page-w3c-validation)
+![Shows Page W3C Validator](docs/testing/shows-page-w3c-validation.png)
 
 #### Sign Up Page
 
-![Sign Up Page W3C Validator](docs/testing/sign-up-w3c-validation)
+![Sign Up Page W3C Validator](docs/testing/sign-up-w3c-validation.png)
 
 #### Thank You Page
 
-![Thank You Page W3C Validator](docs/testing/thank-you-w3c-validation)
+![Thank You Page W3C Validator](docs/testing/thank-you-w3c-validation.png)
 
 #### 404 Page
 
-![404 Page W3C Validator](docs/testing/404-page-w3c-validation)
+![404 Page W3C Validator](docs/testing/404-page-w3c-validation.png)
 
 #### Stylesheet
 
-![Stylesheet W3C Validator](docs/testing/stylesheet-w3c-validation)
+![Stylesheet W3C Validator](docs/testing/stylesheet-w3c-validatio.png)
 
 ### Lighthouse Testing
 
