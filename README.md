@@ -179,18 +179,19 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 To fork the Panic Switch Website repository:
 
   1. Log in (or sign up) to Github.
-  2. Go to the repository for this project, DanArthur99/Milestone-Project-1.Panic-Switch-Website.
+  2. Go to the repository for this project, DanArthur99 / Milestone-Project-1.Panic-Switch-Website.
   3. Click the Fork button in the top right corner.
 
 #### Cloning a Repository
 
 To clone the Panic Switch Website repository:
 
-  1. Log in (or sign up) to GitHub.
+  1. Log in or Sign Up to GitHub.
   2. Go to the repository for this project, DanArthur99 / Milestone-Project-1.Panic-Switch-Website.
   3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
   4. Open the terminal in your IDE and set your working directory to the location you want to use for the cloned repository.
-  5. Type 'git clone' into the terminal window, and paste the link you copied in step 3, then press enter.
+  5. Type 'git clone' into the terminal window, and paste the link from step 3, then press enter.
+  6. Your cloned repository should now be located in your chosen directory, ready for local development.
 
 
 ## Testing
@@ -198,27 +199,62 @@ To clone the Panic Switch Website repository:
 ### W3C Validator
 
 * Home Page
+![Home Page W3C Validator](docs/testing/index-page-w3c-validation)
 * About Page
+![About Page W3C Validator](docs/testing/about-page-w3c-validation)
 * Shows Page
+![Shows Page W3C Validator](docs/testing/shows-page-w3c-validation)
 * Sign Up Page
+![Sign Up Page W3C Validator](docs/testing/sign-up-w3c-validation)
 * Thank You Page
+![Thank You Page W3C Validator](docs/testing/thank-you-w3c-validation)
 * 404 Page
+![404 Page W3C Validator](docs/testing/404-page-w3c-validation)
 * Stylesheet
+![Stylesheet W3C Validator](docs/testing/stylesheet-w3c-validation)
 
 ### Lighthouse Testing
 
 * Home Page
-![Home Page Lighthouse Test](assets/docs/testing/index-page-lighthouse-test.png)
+![Home Page Lighthouse Test](docs/testing/index-page-lighthouse-test.png)
+  * The main issue I am getting from the lighthouse test is performance issues, which is in part due to the embedded youtube video (iframe) that has to load in, as well the numerous animations on the page. When I originally tested the page on the lighthouse test, I was getting scores in the 30s. To fix this issue, I used code from a repository called Lite-YouTube-Embed, written by paulirish ([see Credits section](#Credits)), which allows the page to 'lazy-load' the embedded youtube video, and only loads in the iframe when the 'facade' is clicked.
+  * Other issues I was getting were due to image file sizes. In the end, I ended up converting all jpg images into webp format, then further compressing them so that the file sizes were not too big.
 * About Page
-![About Page Lighthouse Test](assets/docs/testing/about-page-lighthouse-test.png)
+![About Page Lighthouse Test](docs/testing/about-page-lighthouse-test.png)
 * Shows Page
-![Shows Page Lighthouse Test](assets/docs/testing/shows-page-lighthouse-test.png)
+![Shows Page Lighthouse Test](docs/testing/shows-page-lighthouse-test.png)
 * Sign Up Page
-![Sign Up Page Lighthouse Test](assets/docs/testing/sign-up-lighthouse-test.png)
+![Sign Up Page Lighthouse Test](docs/testing/sign-up-lighthouse-test.png)
 * Thank You Page
-![Thank You Page Lighthouse Test](assets/docs/testing/thank-you-lighthouse-test.png)
+![Thank You Page Lighthouse Test](docs/testing/thank-you-lighthouse-test.png)
+  * The only reason the best practices section is scoring lower is because of the meta refresh redirect tag. This is intentional, as I wanted the user to be redirected to the homepage once 'signing up.'
 * 404 Page
-![404 Page Lighthouse Test](assets/docs/testing/404-page-lighthouse-test.png)
+![404 Page Lighthouse Test](docs/testing/404-page-lighthouse-test.png)
+
+### Wave Accessibility Testing
+
+* Home Page
+![Home Page Wave Test](docs/testing/index-page-wave-accessibility.png)
+  * While no errors occurred, there is an alert for a redundant link. This however is intentional, as it is my design choice to have the band logo double as a link back to the home page no matter what page the user is on (the only exceptions to this are the thank you page and the 404 page).
+  ![Redundant Link](docs/testing/redundant-link-image.png)
+* About Page
+![About Page Wave Test](docs/testing/about-page-wave-accessibility.png)
+  * Once again there are alerts for redundant links. However, this is part of my design choice.
+  ![Redundant Links](docs/testing/two-redundant-links-image.png)
+* Shows Page
+![Shows Page Wave Test](docs/testing/shows-page-wave-accessibility.png)
+  * As before, the redundant links alerts also appear.
+  ![Redundant Links](docs/testing/two-redundant-links-image.png)
+* Sign Up Page
+![Sign Up Page Wave Test](docs/testing/sign-up-wave-accessibility.png)
+  * Same redundant links alerts as previous.
+  ![Redundant Links](docs/testing/two-redundant-links-image.png)
+* Thank You Page
+![Thank You Page Wave Test](docs/testing/thank-you-wave-accessibility.png)
+  * As with the lighthouse testing, the only reason an error is occuring is because of the meta refresh redirect tag, which is an intentional design choice of mine, as I wanted the user to be redirected to the home page.
+  ![Refresh Wave Error](docs/testing/refresh-wave-error.png)
+* 404 Page
+![404 Page Wave Test](docs/testing/404-page-wave-accessibility.png)
 
 ### Bugs
 
