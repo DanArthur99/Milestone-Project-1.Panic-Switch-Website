@@ -228,33 +228,53 @@ To clone the Panic Switch Website repository:
 ![Sign Up Page Lighthouse Test](docs/testing/sign-up-lighthouse-test.png)
 * Thank You Page
 ![Thank You Page Lighthouse Test](docs/testing/thank-you-lighthouse-test.png)
-  * The only reason the best practices section is scoring lower is because of the meta refresh redirect tag. This is intentional, as I wanted the user to be redirected to the homepage once 'signing up.'
+  * The only reason the best accessibility section is scoring lower is because of the meta refresh redirect tag. This is intentional, as I wanted the user to be redirected to the homepage once 'signing up.'
 * 404 Page
 ![404 Page Lighthouse Test](docs/testing/404-page-lighthouse-test.png)
 
 ### Wave Accessibility Testing
 
 * Home Page
+
 ![Home Page Wave Test](docs/testing/index-page-wave-accessibility.png)
+
   * While no errors occurred, there is an alert for a redundant link. This however is intentional, as it is my design choice to have the band logo double as a link back to the home page no matter what page the user is on (the only exceptions to this are the thank you page and the 404 page).
-  ![Redundant Link](docs/testing/redundant-link-image.png)
+
+![Redundant Link](docs/testing/redundant-link-image.png)
+
 * About Page
+
 ![About Page Wave Test](docs/testing/about-page-wave-accessibility.png)
+
   * Once again there are alerts for redundant links. However, this is part of my design choice.
-  ![Redundant Links](docs/testing/two-redundant-links-image.png)
+
+![Redundant Links](docs/testing/two-redundant-links-image.png)
+
 * Shows Page
+
 ![Shows Page Wave Test](docs/testing/shows-page-wave-accessibility.png)
+
   * As before, the redundant links alerts also appear.
-  ![Redundant Links](docs/testing/two-redundant-links-image.png)
+
+![Redundant Links](docs/testing/two-redundant-links-image.png)
+
 * Sign Up Page
+
 ![Sign Up Page Wave Test](docs/testing/sign-up-wave-accessibility.png)
+
   * Same redundant links alerts as previous.
-  ![Redundant Links](docs/testing/two-redundant-links-image.png)
+
+![Redundant Links](docs/testing/two-redundant-links-image.png)
+
 * Thank You Page
+
 ![Thank You Page Wave Test](docs/testing/thank-you-wave-accessibility.png)
   * As with the lighthouse testing, the only reason an error is occuring is because of the meta refresh redirect tag, which is an intentional design choice of mine, as I wanted the user to be redirected to the home page.
-  ![Refresh Wave Error](docs/testing/refresh-wave-error.png)
+
+![Refresh Wave Error](docs/testing/refresh-wave-error.png)
+
 * 404 Page
+
 ![404 Page Wave Test](docs/testing/404-page-wave-accessibility.png)
 
 ### Bugs
