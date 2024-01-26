@@ -331,7 +331,7 @@ To clone the Panic Switch Website repository:
 
 * One bug I came across was that the navbar would wrap strangely when the screen was shrunk down below a certain size, but before it switched to drop down menu. One of the big things that would happen is the logo would wrap above the screen so that it was invisible.
 
-To get around this, I programmed the dropdown nav menu to appear at my own custom breakpoint, rather than the bootstrap provided once. This breakpoint was slightly larger than the tradition sm breakpoint, being 631px. This meant that the nav menu would turn into a dropdown menu before any screen wrap issue could occur
+  To get around this, I programmed the dropdown nav menu to appear at my own custom breakpoint, rather than the bootstrap provided once. This breakpoint was slightly larger than the tradition sm breakpoint, being 631px. This meant that the nav menu would turn into a dropdown menu before any screen wrap issue could occur
 
 These custom breakpoints were also used for other elements, and were implemented using the "d-custom-none" and "d-custom-maxwidth-none" class names.
 
@@ -343,7 +343,7 @@ These custom breakpoints were also used for other elements, and were implemented
 
 * Another bug I encountered was that the text for the nav elements would go outside the lines of their containers when the screen shrunk to a certain size. 
 
-To fix this, I created a couple of extra media queries that would cause the font-size of the text to reduce at these specific breakpoints.
+  To fix this, I created a couple of extra media queries that would cause the font-size of the text to reduce at these specific breakpoints.
 
 ![Navbar Text Breakpoints](docs/readme-images/nav-text-breakpoints.png)
 
