@@ -254,7 +254,7 @@ To clone the Panic Switch Website repository:
 
 * The performance is showing slightly below the rest of the criteria due to the largest contentful paint element, which is the band photo background at the top of the screen that uses a fade-in animation keyframe.
 
-![Sign Up Page Largest Contentful Paint](docs/testing-sign-up-lcp.png)
+![Sign Up Page Largest Contentful Paint](docs/testing/sign-up-lcp.png)
 
 #### Thank You Page
 
