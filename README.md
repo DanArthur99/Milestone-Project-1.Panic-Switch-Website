@@ -240,8 +240,6 @@ To clone the Panic Switch Website repository:
 
 ![About Page Lighthouse Test](docs/testing/about-page-lighthouse-test.png)
 
-* The performance is showing slightly below the rest of the criteria due to the largest contentful paint element, which is the text box that uses a fade-in animation keyframe.
-
 #### Shows Page
 
 ![Shows Page Lighthouse Test](docs/testing/shows-page-lighthouse-test.png)
@@ -253,6 +251,10 @@ To clone the Panic Switch Website repository:
 #### Sign Up Page
 
 ![Sign Up Page Lighthouse Test](docs/testing/sign-up-lighthouse-test.png)
+
+* The performance is showing slightly below the rest of the criteria due to the largest contentful paint element, which is the band photo background at the top of the screen that uses a fade-in animation keyframe.
+
+![Sign Up Page Largest Contentful Paint](docs/testing-sign-up-lcp.png)
 
 #### Thank You Page
 
