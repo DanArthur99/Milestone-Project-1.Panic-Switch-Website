@@ -149,7 +149,7 @@ The programming languages used for this project were:
 * [Bootstrap (v5.3.2)](https://getbootstrap.com/) - CSS and JS framework used. Used mainly for the navbar, grid structure, and button styling.
 * [Google Fonts](https://fonts.google.com/)- Imported selected fonts into external stylesheet, namely "Rubik Glitch" and "Exo 2."
 * [Figma](https://www.figma.com/) - Used to create the wireframes.
-* [Coolors] (https://coolors.co/) - Used to create the colour palette image.
+* [Coolors](https://coolors.co/) - Used to create the colour palette images.
 * [Favicon.io](https://favicon.io/) - To create favicon icons.
 * [Am I Responsive?](https://ui.dev/amiresponsive) - Used to create the multi-screen image you see at the start of this document.
 * [CloudConvert](https://cloudconvert.com/webp-converter) - To convert JPEG images into WEBP format.
@@ -162,13 +162,44 @@ The programming languages used for this project were:
 
 ### Features
 
+* All Pages:
 
+  * A navigation bar, alongside the band logo, which allows the user to navigate easily accross the whole site. The navigation elements are: Home, About, Music, Shows, Social, Sign Up. These are the same for all pages (excluding the Thank You Page and 404 Page). The view of the nav elements changes to a dropdown navbar toggler when viewed on smaller screen sizes, i.e. a mobile phone.
+  * A footer that contains links to our band's social media accounts, these being Facebook, X(Twitter), and Instagram, with their respective icons used to represent each social media site. Same for all pages excluding the Thank You Page and 404 Page.
+
+* Home Page:
+
+  * A band group photo is used on the top part of the screen to immediately give the users a visual of who we are. A short advertisement of our newest song overlaps the image (on mobile devices, this advertisement has its own section to keep things easily readable and streamlined). This image is also reused for the Sign Up Page, as well as the 404 and Thank You Page
+  * A "Music" section which contains links to our Spotify profile and Amazon Music store, as well the music video for our song "Lethal Intent", which has been embedded into site from YouTube.
+
+* About Page:
+
+  * Contains a short description about the band, namely where we are from and what kind of music we make and play.
+
+* Shows Page:
+
+  * Contains a list of our upcoming and past shows (we currently have no shows lined up, so the "Upcoming Shows" section is empty. However, had we had any shows booked, it is my intention to add a link button to these shows that sends to user to a page where they can buy tickets).
+
+* Sign Up Page:
+
+  * This contains a form that the user can fill out to sign up to a (as of yet) nonexistent newsletter. They can input their first name, last name, email address, and select the country where they are from.
+
+* Thank You Page:
+
+  * Appears when the user submits the form on the sign up page. Displays a message thanking the user for submitting their details, before redirecting them to the homepage after a few seconds
+  * All navigation links have been removed from this page, since the page redirects back to the Home page after 5 seconds.
+
+* 404 Page:
+
+  * Appears when the user enters an unfindable page relating the website, e.g. a typo in the page name url.
+  * Displays a message saying that the page could not be found. 
+  * Like the Thank You Page, all navigation elements have been removed. The only thing that remains is a button that takes the user back to the Home page when clicked. This is located below the main text.  
 
 ### Accessibility
 
 * All applicable features and element have the necessary aria-labels and alt attributes, these include the img element on the index page, the social media icons, band logo, and other textless buttons such as the spotify and amazon buttons. This is so that it is easily accessibile for people using screen readers.
 
-* Semantic HTML has been used, i.e. the use of header, section, and footer, as well as nav elements, and correctly ordered and nested heading tags
+* Semantic HTML has been used, i.e. the use of header, section, and footer, as well as nav elements and correctly ordered and nested heading tags
 
 * The color contrast is sufficient across the whole site, and text is easy to read and interpret.
 
@@ -329,7 +360,7 @@ To clone the Panic Switch Website repository:
 
 #### Solved Bugs
 
-* One bug I came across was that the navbar would wrap strangely when the screen was shrunk down below a certain size, but before it switched to the drop down menu. One of the big things that would happen is the logo would wrap above the screen so that it was invisible.
+* At first, the navbar would wrap strangely when the screen was shrunk down below a certain size, but before it switched to the drop down menu. One of the big things that would happen is the logo would wrap above the screen so that it was invisible.
 
   To get around this, I programmed the dropdown nav menu to appear at my own custom breakpoint, rather than just the bootstrap provided ones. This breakpoint was slightly larger than the tradition sm breakpoint, being 631px. This meant that the nav menu would turn into a dropdown menu before any screen wrap issue could occur
 
@@ -349,7 +380,15 @@ To clone the Panic Switch Website repository:
 
 * One bug I encountered when the site was deployed was that a 405 method not allowed error would occur when attempting to submit the form, rather than taking me to the intended thank-you.html. To counteract this, I removed the method="post" attribute from the form element, and kept the action attribute value as thank-you.html, which then allowed me to submit the form and take the user to the thank you page without any issues.
 
+* After setting the width and height attributes on the "Vanquish" cover image, the image would warp its shape when the screen shrunk down below a certain size, rather than shrinking in size and keeping the same dimensions. 
+
+  To fix this, I found a short line of CSS code from Stack Overflow that kept the img element width at 100%, while setting the height to auto. This resolved the issue. (see [credits section](#Credits))
+
+![Img CSS Fix](docs/readme-images/img-css-fix.png)
+
 #### Known Bugs
+
+*
 
 ### Testing User Stories
 
