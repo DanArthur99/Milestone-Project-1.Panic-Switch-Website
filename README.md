@@ -9,6 +9,13 @@ This project is a website for our band PANIC SWITCH, a thrash metal band based i
 
 Consisting of five members, our style is a mixture of modern heavy metal along with more traditional thrash metal elements
 
+![Last Commit: January 2024](https://img.shields.io/badge/LAST_COMMIT-JANUARY_2024-red)
+![Languages: 3](https://img.shields.io/badge/LANGUAGES-3-yellow)
+![W3C HTML: Validated](https://img.shields.io/badge/W3C_HTML-VALIDATED-orange)
+![W3C CSS: Validated](https://img.shields.io/badge/W3C_CSS-VALIDATED-blue)
+![Contrubutors: 1](https://img.shields.io/badge/CONTRIBUTORS-1-green)
+
+
 ## CONTENTS
 
 * [Project Goal](#Project-Goal)
@@ -150,6 +157,7 @@ The programming languages used for this project were:
 * [Figma](https://www.figma.com/) - Used to create the wireframes.
 * [Coolors](https://coolors.co/) - Used to create the colour palette images.
 * [Favicon.io](https://favicon.io/) - To create favicon icons.
+* [Shields.io](https://shields.io/) - Used to create badges.
 * [Am I Responsive?](https://ui.dev/amiresponsive) - Used to create the multi-screen image you see at the start of this document.
 * [CloudConvert](https://cloudconvert.com/webp-converter) - To convert JPEG images into WEBP format.
 * [Compress-Or-Die](https://compress-or-die.com/webp) - Image File Compressor.
