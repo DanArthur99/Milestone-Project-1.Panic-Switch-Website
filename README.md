@@ -61,21 +61,21 @@ I also thought it would be a good idea to add a sign up page that would sign use
 
 #### Overall Client Goals
 
-* To have a website that is viewable on different screen sizes
-* To have a website theme that is aesthetically eye catching and matches the theme of the band
-* To have a website that is clearly and easily navigatable
+1. To have a website that is viewable on different screen sizes
+2. To have a website theme that is aesthetically eye catching and matches the theme of the band
+3. To have a website that is clearly and easily navigatable
 
 #### First Time Visit Goals
 
-* To have access to the bands current and latest music
-* To have access to the upcoming gig schedule
-* To be able to access the bands social media accounts
+1. To have access to the bands current and latest music
+2. To have access to the upcoming gig schedule
+3. To be able to access the bands social media accounts
 
 #### Returning Visitor Goals
 
-* To be able to view the latest updates regarding the band
-* To be able to view and book tickets to the bands upcoming shows
-* To be able to sign up to an email list keeps me up to with the latest releases, gigs, or merchandise.
+1. To be able to view the latest updates regarding the band
+2. To be able to view and book tickets to the bands upcoming shows
+3. To be able to sign up to an email list keeps me up to with the latest releases, gigs, or merchandise.
 
 ### Design
 
@@ -157,7 +157,7 @@ The programming languages used for this project were:
 * Chrome Developer Tools - Used for testing features and responsiveness.
   * Lighthouse - Extension of dev tools used. Gives a score on site performance, accessibiliity, search engine optimization, and best practices in code.
 * [W3C Markup Validation Service](https://validator.w3.org/) - Used for testing HTML validation.
-* [w3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used for testing CSS validation.
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used for testing CSS validation.
 * [Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/extension/) - Used for testing webpage accessibility. 
 
 ### Features
@@ -348,6 +348,7 @@ To clone the Panic Switch Website repository:
 #### Thank You Page
 
 ![Thank You Page Wave Test](docs/testing/thank-you-wave-accessibility.png)
+
   * As with the lighthouse testing, the only reason an error is occuring is because of the meta refresh redirect tag, which is an intentional design choice of mine, as I wanted the user to be redirected to the home page.
 
 ![Refresh Wave Error](docs/testing/refresh-wave-error.png)
@@ -371,6 +372,7 @@ To clone the Panic Switch Website repository:
 ![d-custom-maxwidth-none](docs/readme-images/d-custom-maxwidth-none.png)
 
 ![navbar d-custom-none](docs/readme-images/nav-d-custom-none.png)
+![navbar d-custom-maxwidth-none](docs/readme-images/nav-d-custom-maxwidth-none.png)
 
 * Another bug I encountered was that the text for the nav elements would go outside the lines of their containers when the screen shrunk to a certain size. 
 
@@ -386,11 +388,17 @@ To clone the Panic Switch Website repository:
 
 ![Img CSS Fix](docs/readme-images/img-css-fix.png)
 
-#### Known Bugs
-
-*
-
 ### Testing User Stories
+
+#### Client Goals
+
+1. The website uses responsive design, and has been adapted for both mobile and desktop screens
+2. Lots of themes and styling have been added to make the website look appealing to visitors. This includes different eye catching font styles, such as Rubik Glitch, and use of animations, i.e. fade-ins and slide-ins, as well as hover animations for buttons and other clickable icons.
+3. Each page has its own navbar that allows the user to navigate to any page no matter what page they are currently on, make it a very easy website to navigate. The only places this doesn't neccessarily apply are the Thank You page and the 404 page, which uses a redirect and a designated Home button respectively.
+
+#### First Time Visit Goals
+
+1. 
 
 ### Other Testing
 
