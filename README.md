@@ -140,7 +140,7 @@ Keeping in line with the theme of the band, the site uses a largely "colourless"
 
 ### Technologies Used
 
-#### Languages
+#### Languages Used
 
 The programming languages used for this project were:
 
