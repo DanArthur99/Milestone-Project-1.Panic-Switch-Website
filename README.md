@@ -17,10 +17,9 @@ Consisting of five members, our style is a mixture of modern heavy metal along w
   * [User Stories](#User-Stories)
 
   * [Design](#Design)
-    * [Colour Scheme](#Colour-Scheme)
-    * [Typography](#Typography)
-    * [Imagery](#Imagery)
     * [Wireframes](#Wireframes)
+    * [Typography](#Typography)
+    * [Colour Scheme](#Colour-Scheme)
     * [Features](#Features)
     * [Accessibility](#Accessibility)
 
