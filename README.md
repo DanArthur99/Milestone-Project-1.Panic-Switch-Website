@@ -456,17 +456,17 @@ Mobile:
     * Intended result: Unable to submit form
     * Test result: Pass
 
-  Input type Testing:
+  Input Type Testing:
 
   * Tried to submit form with numbers and special characters in first name field:
     * Intended result: Unable to submit form
     * Test result: Fail
-    * Fix: added the attribute pattern="[a-zA-Z]*" to the input element [see Credits Section](#Credits)
+    * Fix: added the attribute pattern="[a-zA-Z]*" to the input element. ([see Credits Section](#Credits))
     * Re-test result: Pass
   * Tried to submit form with numbers and special characters in last name field:
     * Intended result: Unable to submit form
     * Test result: Fail
-    * Fix: added the attribute pattern="[a-zA-Z]*" to the input element [see Credits Section](#Credits)
+    * Fix: added the attribute pattern="[a-zA-Z]*" to the input element. ([see Credits Section](#Credits))
     * Re-test result: Pass
   * Tried to submit form with incorrect email format (without @) in email field:
     * Intended result: Unable to submit form
@@ -474,7 +474,7 @@ Mobile:
   * Tried to submit form with incorrect email format (with @) in email field:
     * Intended result: Unable to submit form
     * Test result: Fail
-    * Fix: added the attribute pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" to the input element [see Credits Section](#Credits)
+    * Fix: added the attribute pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" to the input element. ([see Credits Section](#Credits))
     * Re-test result: Pass
 
 ## Credits
