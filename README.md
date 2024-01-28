@@ -146,7 +146,7 @@ The programming languages used for this project were:
 
 * HTML5
 * CSS3
-* JavaScript (used but not written by myself ([see Credits section][#Credits]))
+* JavaScript (used but not written by myself ([see Credits section](#Credits)))
 
 #### Frameworks & Other Libraries/Programs Used
 
