@@ -408,7 +408,7 @@ Mobile:
 
 ![Navbar Hover Item Image](docs/readme-images/nav-hover.png)
 
-3. Each page has its own navbar that allows the user to navigate to any page no matter what page they are currently on, make it a very easy website to navigate. The only places this doesn't neccessarily apply are the Thank You page and the 404 page, which uses a redirect and a designated Home button respectively.
+3. Each page has its own navbar that allows the user to navigate to any page no matter what page they are currently on, making it a very easy website to navigate. The only places this doesn't neccessarily apply are the Thank You page and the 404 page, which uses a redirect and a designated Home button respectively.
 
 #### First Time Visit Goals
 
