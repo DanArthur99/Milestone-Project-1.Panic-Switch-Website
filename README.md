@@ -195,6 +195,8 @@ The programming languages used for this project were:
   * Displays a message saying that the page could not be found. 
   * Like the Thank You Page, all navigation elements have been removed. The only thing that remains is a button that takes the user back to the Home page when clicked. This is located below the main text.  
 
+  ![404 Page Image](docs/readme-images/404.png)
+
 ### Accessibility
 
 * All applicable features and element have the necessary aria-labels and alt attributes, these include the img element on the index page, the social media icons, band logo, and other textless buttons such as the spotify and amazon buttons. This is so that it is easily accessibile for people using screen readers.
@@ -435,6 +437,46 @@ Mobile:
 
 ### Other Testing
 
+* The website has been tested on several browsers, specifically Microsoft Edge, Google Chrome, and Mozilla Firefox, and is fully functional and working as intended on all 3.
+* Each nav link has been tested on each page that they go to the intended destination page.
+* Validation testing was performed on the sign up form, below is an outline of the the different tests done:
+
+  Empty Field testing
+
+  * Tried to submit the form with an empty first name field:
+    * Intended result: Unable to submit form
+    * Test result: Pass
+  * Tried to submit the form with an empty last name field:
+    * Intended result: Unable to submit form
+    * Test result: Pass
+  * Tried to submit the form with an empty email field:
+    * Intended result: Unable to submit form
+    * Test result: Pass
+  * Tried to submit the form with an unselected country field:
+    * Intended result: Unable to submit form
+    * Test result: Pass
+
+  Input type testing
+
+  * Tried to submit form with numbers and special characters in first name field:
+    * Intended result: Unable to submit form
+    * Test result: Fail
+    * Fix: added the attribute pattern="[a-zA-Z]*" to the input element [see Credits Section](#Credits)
+    * Re-test result: Pass
+  * Tried to submit form with numbers and special characters in last name field:
+    * Intended result: Unable to submit form
+    * Test result: Fail
+    * Fix: added the attribute pattern="[a-zA-Z]*" to the input element [see Credits Section](#Credits)
+    * Re-test result: Pass
+  * Tried to submit form with incorrect email format (without @) in email field:
+    * Intended result: Unable to submit form
+    * Test result: Pass
+  * Tried to submit form with incorrect email format (with @) in email field:
+    * Intended result: Unable to submit form
+    * Test result: Fail
+    * Fix: added the attribute pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" to the input element [see Credits Section](#Credits)
+    * Re-test result: Pass
+
 ## Credits
 
 ### Code
@@ -445,6 +487,12 @@ Mobile:
   * (This code (accepted answer) was used to fix the responsivity issue on the cover art image load in)
 * [Country list](https://gist.github.com/danrovito/977bcb97c9c2dfd3398a) - author: danrovito
   * (This code was copied into the sign-up form, and was used to display the country dropdown list)
+* [Text and email input validation](https://stackoverflow.com/questions/29823591/html-input-do-not-allow-numbers) - author: Mior
+  * (This code was used to add additional validation to the names and email inputs of the sign up form. This was basically so that numbers and special characters would not be accepted in the name field, and also so that the email addresses would definitely be written in the correct format, and not just any string of characters that contains an @ character)
+
+### Media 
+
+* [Panic Switch - Lethal Intent (Official Music Video)](https://www.youtube.com/watch?v=jk0TfBpMXEI)
 
 
 
