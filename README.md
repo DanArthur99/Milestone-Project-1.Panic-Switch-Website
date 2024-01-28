@@ -40,12 +40,12 @@ Consisting of five members, our style is a mixture of modern heavy metal along w
   * [Wave Accessibiliy Testing](#Wave-Accessibility-TSesting)
   * [Bugs](#Bugs)
     * [Solved Bugs](#Solved-Bugs)
-    * [Known Bugs](#Known-Bugs)
   * [Testing User Stories](#Testing-User-Stories)
   * [Other Testing](#Other-Testing)
   
 * [Credits](#Credits)
   * [Code](#Code)
+  * [Media](#Media)
 
 ## Project Goal
 
@@ -441,7 +441,7 @@ Mobile:
 * Each nav link has been tested on each page that they go to the intended destination page.
 * Validation testing was performed on the sign up form, below is an outline of the the different tests done:
 
-  Empty Field testing
+  Empty Field Testing:
 
   * Tried to submit the form with an empty first name field:
     * Intended result: Unable to submit form
@@ -456,7 +456,7 @@ Mobile:
     * Intended result: Unable to submit form
     * Test result: Pass
 
-  Input type testing
+  Input type Testing:
 
   * Tried to submit form with numbers and special characters in first name field:
     * Intended result: Unable to submit form
