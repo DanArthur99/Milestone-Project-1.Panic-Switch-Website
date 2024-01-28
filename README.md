@@ -276,7 +276,7 @@ To clone the Panic Switch Website repository:
 
 ![Home Page Lighthouse Test](docs/testing/index-page-lighthouse-test.png)
 
-* The main issue I am getting from the lighthouse test is performance issues, which is in part due to the embedded youtube video (iframe) that has to load in, as well the numerous animations on the page. When I originally tested the page on the lighthouse test, I was getting scores in the 30s. To fix this issue, I used code from a repository called Lite-YouTube-Embed, written by paulirish ([see Credits section](#Credits)), which allows the page to 'lazy-load' the embedded youtube video, and only loads in the iframe when the 'facade' is clicked.
+* The main issue I am getting from the lighthouse test is performance issues, which is in part due to the embedded youtube video (iframe) that has to load in, as well the numerous images and animations on the page. When I originally tested the page on the lighthouse test, I was getting scores in the 30s. To fix this issue, I used code from a repository called Lite-YouTube-Embed, written by paulirish ([see Credits section](#Credits)), which allows the page to 'lazy-load' the embedded youtube video, and only loads in the iframe when the 'facade' is clicked.
 * Other issues I was getting were due to image file sizes. In the end, I ended up converting all jpg images into webp format, then further compressing them so that the file sizes were not too big.
 
 #### About Page
@@ -287,7 +287,7 @@ To clone the Panic Switch Website repository:
 
 ![Shows Page Lighthouse Test](docs/testing/shows-page-lighthouse-test.png)
 
-* The performance for the shows page is scoring slightly lower. The largest contentful paint element is in part to blame, which takes longer to load in due to the fade-in animation.
+* The performance for the shows page is scoring slightly lower. The largest contentful paint element is in part to blame, which has a 1,300 ms load delay.
 
 ![Shows Page Largest Contentful Paint](docs/testing/shows-largest-content-paint.png)
 
@@ -295,7 +295,7 @@ To clone the Panic Switch Website repository:
 
 ![Sign Up Page Lighthouse Test](docs/testing/sign-up-lighthouse-test.png)
 
-* The performance is showing slightly below the rest of the criteria due to the largest contentful paint element, which is the band photo background at the top of the screen that uses a fade-in animation keyframe.
+* The performance is showing slightly below the rest of the criteria due to the largest contentful paint element, which is the band photo background at the top of the screen.
 
 ![Sign Up Page Largest Contentful Paint](docs/testing/sign-up-lcp.png)
 
@@ -392,13 +392,46 @@ To clone the Panic Switch Website repository:
 
 #### Client Goals
 
-1. The website uses responsive design, and has been adapted for both mobile and desktop screens
+1. The website uses responsive design, and has been adapted for both mobile and desktop screens.
+
+Desktop:
+
+![Home Page Desktop Image](docs/readme-images/home-desktop.png)
+
+Mobile:
+
+![Home Page Mobile Image](docs/readme-images/home-mobile.png)
+
+
 2. Lots of themes and styling have been added to make the website look appealing to visitors. This includes different eye catching font styles, such as Rubik Glitch, and use of animations, i.e. fade-ins and slide-ins, as well as hover animations for buttons and other clickable icons.
+
+![Navbar Hover Item Image](docs/readme-images/nav-hover.png)
+
 3. Each page has its own navbar that allows the user to navigate to any page no matter what page they are currently on, make it a very easy website to navigate. The only places this doesn't neccessarily apply are the Thank You page and the 404 page, which uses a redirect and a designated Home button respectively.
 
 #### First Time Visit Goals
 
-1. 
+1. The Website has its own "Music" section where users can see the music video for our song "Lethal Intent", and it also provides links to our Spotify page, as well as the Amazon Store.
+
+![Music Section Image](docs/readme-images/music-section.png)
+
+2. There is a designated "Shows" page intended for displaying our upcoming show schedule, as well being to see our previous shows.
+
+![Shows Page Image](docs/readme-images/shows-page.png)
+
+3. Each page provides social media links within their respective footer elements. 
+
+![Social Media Links Image](docs/readme-images/social-links.png)
+
+#### Returning Visitor Goals
+
+1. The top part of our home page is used to display the very latest big news about the band. For example, it currently displays a short "ad" about our latest upcoming song.
+2. The "Shows" page is intended to display our upcoming shows, with the intention being to have links on these shows that take the user to a page where they can purchase a ticket (or tickets). However, since we have no current shows scheduled in, I could not implement this specific part just yet.
+3. I have added a sign up page that allows the user to sign to a (as of yet) nonexistent newsletter, so that they can have the latest updates on shows, new music, merch, etc. Only the front-end aspect is currently functional, and upon submitting the form, the user is taken to a Thank You page before being redirected back to the Home Page
+
+![Sign Up Page Image](docs/readme-images/sign-up.png)
+
+![Thank You Page](docs/readme-images/thank-you.png)
 
 ### Other Testing
 
