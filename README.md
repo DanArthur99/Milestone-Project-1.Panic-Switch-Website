@@ -57,9 +57,9 @@ Consisting of five members, our style is a mixture of modern heavy metal along w
 
 Since our band does not currently have a live website, it was my idea to begin developing one.
 
-The end goal was to have a fully functional (front-end) and aesthetically pleasing webpage that showcases our band, music, as well as good user interaction. This would including appropriate theming and imagery that matches the theme of the band, as well as links, both external and embedded, to our our music. 
+The end goal was to have a fully functional (front-end) and aesthetically pleasing webpage that showcases our band, music, as well as good user interaction. This would include appropriate theming and imagery that matches the theme of the band, as well as links, both external and embedded, to our music. 
 
-I also thought it would be a good idea to add a sign up page that would sign users up to a (as of yet) fictional newsletter with their name, email and country. In turn, this would send them emails about upcoming gigs, new music, etc. (Please not that only the front end aspect of this section is functional. The sign up page at this point exists more as a proof of concept).
+I also thought it would be a good idea to add a sign up page that would sign users up to a (as of yet) fictional newsletter with their name, email and country of residence. In turn, this would send them emails about upcoming gigs, new music, etc. (Please not that only the front end aspect of this section is functional. The sign up page at this point exists more as a proof of concept).
 
 ## User Experience (UX)
 
@@ -133,7 +133,7 @@ The Website primarily uses 2 different fonts throughout. Both of which were obta
 
 #### Colour Palette
 
-Keeping in line with the theme of the band, the site uses a largely "colourless" palette , consisting predominantly of blacks, greys, and whites. There are a few exceptions however, such as the navbar elements and the footer elements, which use shades of blue and green, albiet slightly washed shades.
+Keeping in line with the theme of the band, the site uses a largely "colourless" palette, consisting predominantly of blacks, greys, and whites. There are a few exceptions however, such as the navbar elements and the footer elements, which use shades of blue and green, albiet slightly washed shades.
 
 ![Colour Palette 1](docs/readme-images/color-palette.png)
 ![Colour Palette 2](docs/readme-images/color-palette-2.png)
@@ -172,7 +172,7 @@ The programming languages used for this project were:
 * All Pages:
 
   * A navigation bar, alongside the band logo, which allows the user to navigate easily accross the whole site. The navigation elements are: Home, About, Music, Shows, Social, Sign Up. These are the same for all pages (excluding the Thank You Page and 404 Page). The view of the nav elements changes to a dropdown navbar toggler when viewed on smaller screen sizes, i.e. a mobile phone.
-  * A footer that contains links to our band's social media accounts, these being Facebook, X(Twitter), and Instagram, with their respective icons used to represent each social media site. Same for all pages excluding the Thank You Page and 404 Page.
+  * A footer that contains links to our band's social media accounts, these being Facebook, X (Twitter), and Instagram, with their respective icons used to represent each social media site. Same for all pages excluding the Thank You Page and 404 Page.
 
 * Home Page:
 
@@ -206,7 +206,7 @@ The programming languages used for this project were:
 
 ### Accessibility
 
-* All applicable features and element have the necessary aria-labels and alt attributes, these include the img element on the index page, the social media icons, band logo, and other textless buttons such as the spotify and amazon buttons. This is so that it is easily accessibile for people using screen readers.
+* All applicable features and elements have the necessary aria-labels and alt attributes, these include the img element on the index page, the social media icons, band logo, and other textless buttons such as the spotify and amazon buttons. This is so that it is easily accessibile for people using screen readers.
 
 * Semantic HTML has been used, i.e. the use of header, section, and footer, as well as nav elements and correctly ordered and nested heading tags
 
@@ -218,12 +218,12 @@ The programming languages used for this project were:
 
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
-  1. Log in or Sign Up to Github.
+  1. Log in or sign up to Github.
   2. Find the repository for this project, DanArthur99 / Milestone-Project-1.Panic-Switch-Website.
   3. Click on the Settings link.
   4. Click on the Pages link in the left hand side navigation bar.
-  5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select   folder menu.
-  6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+  5. In the Source section, select "main" from the drop down branch menu. Select Root from the drop down folder menu.
+  6. Click Save. The site is now deployed at the URL shown via Github Pages.
 
 ### Local Development
 
@@ -231,7 +231,7 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 
 To fork the Panic Switch Website repository:
 
-  1. Log in or Sign Up to Github.
+  1. Log in or sign up to Github.
   2. Go to the repository for this project, DanArthur99 / Milestone-Project-1.Panic-Switch-Website.
   3. Click the Fork button in the top right corner.
 
@@ -239,9 +239,9 @@ To fork the Panic Switch Website repository:
 
 To clone the Panic Switch Website repository:
 
-  1. Log in or Sign Up to GitHub.
+  1. Log in or sign up to GitHub.
   2. Go to the repository for this project, DanArthur99 / Milestone-Project-1.Panic-Switch-Website.
-  3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+  3. Click on the code button and select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
   4. Open the terminal in your IDE and set your working directory to the location you want to use for the cloned repository.
   5. Type 'git clone' into the terminal window, and paste the link from step 3, then press enter.
   6. Your cloned repository should now be located in your chosen directory, ready for local development.
@@ -285,7 +285,7 @@ To clone the Panic Switch Website repository:
 
 ![Home Page Lighthouse Test](docs/testing/index-page-lighthouse-test.png)
 
-* The main issue I am getting from the lighthouse test is performance issues, which is in part due to the embedded youtube video (iframe) that has to load in, as well the numerous images and animations on the page. When I originally tested the page on the lighthouse test, I was getting scores in the 30s. To fix this issue, I used code from a repository called Lite-YouTube-Embed, written by paulirish ([see Credits section](#Credits)), which allows the page to 'lazy-load' the embedded youtube video, and only loads in the iframe when the 'facade' is clicked.
+* The main issue I am getting from the lighthouse test is performance issues, which is in part due to the embedded youtube video (iframe) that has to load in, as well the numerous images and animations on the page. When I initially tested the page using lighthouse, I was getting performance scores in the 30s. To fix this issue, I used code from a repository called Lite-YouTube-Embed, written by paulirish ([see Credits section](#Credits)), which allows the page to 'lazy-load' the embedded youtube video, and only loads in the iframe when the 'facade' is clicked.
 * Other issues I was getting were due to image file sizes. In the end, I ended up converting all jpg images into webp format, then further compressing them so that the file sizes were not too big.
 
 #### About Page
@@ -383,13 +383,13 @@ To clone the Panic Switch Website repository:
 ![navbar d-custom-none](docs/readme-images/nav-d-custom-none.png)
 ![navbar d-custom-maxwidth-none](docs/readme-images/nav-d-custom-maxwidth-none.png)
 
-* Another bug I encountered was that the text for the nav elements would go outside the lines of their containers when the screen shrunk to a certain size. 
+* Another bug I encountered was that the text for the nav elements would go outside the lines of their containers when the screen shrunk below a certain size. 
 
   To fix this, I created a couple of extra media queries that would cause the font-size of the text to reduce at these specific breakpoints.
 
 ![Navbar Text Breakpoints](docs/readme-images/nav-text-breakpoints.png)
 
-* One bug I encountered when the site was deployed was that a 405 method not allowed error would occur when attempting to submit the form, rather than taking me to the intended thank-you.html. To counteract this, I removed the method="post" attribute from the form element, and kept the action attribute value as thank-you.html, which then allowed me to submit the form and take the user to the thank you page without any issues.
+* One bug I encountered when the site was deployed was that a "405 method not allowed" error would occur when attempting to submit the form, rather than taking me to the intended thank-you.html. To counteract this, I removed the method="post" attribute from the form element, and kept the action attribute value as thank-you.html, which then allowed me to submit the form and take the user to the thank you page without any issues.
 
 * After setting the width and height attributes on the "Vanquish" cover image, the image would warp its shape when the screen shrunk down below a certain size, rather than shrinking in size and keeping the same dimensions. 
 
