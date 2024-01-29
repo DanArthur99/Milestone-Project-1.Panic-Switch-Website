@@ -177,7 +177,7 @@ The programming languages used for this project were:
 * Home Page:
 
   * A band group photo is used on the top part of the screen to immediately give the users a visual of who we are. A short advertisement of our newest song overlaps the image (on mobile devices, this advertisement has its own section to keep things easily readable and streamlined). This image is also reused for the Sign Up Page, as well as the 404 and Thank You Page
-  * A "Music" section which contains links to our Spotify profile and Amazon Music store, as well the music video for our song "Lethal Intent", which has been embedded into site from YouTube.
+  * A "Music" section which contains links to our Spotify profile and Amazon Music store, as well the music video for our song "Lethal Intent", which has been embedded into the site from YouTube.
 
 * About Page:
 
